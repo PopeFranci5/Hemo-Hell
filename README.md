@@ -2,7 +2,6 @@
 Top-down rogue-lite pixel art
 
 Vaja:
-Boss designs.
 Animatsioonid.
 Dmg logic.
 Hitboxes.
