@@ -2,8 +2,6 @@
 Top-down rogue-lite pixel art
 
 Vaja:
-Textuurid.
-Weapons.
 Movement logic.
 Dodge logic.
 Level design.
