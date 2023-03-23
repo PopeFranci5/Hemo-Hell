@@ -2,7 +2,6 @@
 Top-down rogue-lite pixel art
 
 Vaja:
-Dmg logic.
 Hitboxes.
 Textuurid.
 Weapons.
