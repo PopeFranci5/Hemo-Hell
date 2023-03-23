@@ -2,7 +2,6 @@
 Top-down rogue-lite pixel art
 
 Vaja:
-Hitboxes.
 Textuurid.
 Weapons.
 Movement logic.
