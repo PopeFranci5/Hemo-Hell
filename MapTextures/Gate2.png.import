@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t5l0n3sl0vqs"
-path="res://.godot/imported/Tree1.png-b47bddd667842ba5bb12c4eedb8c4783.ctex"
+uid="uid://gwg2soqgpw8w"
+path="res://.godot/imported/Gate2.png-229a7ce9d97db90f951be78066867861.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MapTextures/Tree1.png"
-dest_files=["res://.godot/imported/Tree1.png-b47bddd667842ba5bb12c4eedb8c4783.ctex"]
+source_file="res://MapTextures/Gate2.png"
+dest_files=["res://.godot/imported/Gate2.png-229a7ce9d97db90f951be78066867861.ctex"]
 
 [params]
 
