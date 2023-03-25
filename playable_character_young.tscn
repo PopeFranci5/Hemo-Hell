@@ -100,7 +100,7 @@ animations = [{
 size = Vector2(5, 19)
 
 [node name="PlayableCharacterYoung" type="Area2D"]
-position = Vector2(464, 307)
+position = Vector2(473, 287)
 scale = Vector2(4, 4)
 script = ExtResource("1_odium")
 metadata/_edit_group_ = true
