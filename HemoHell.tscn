@@ -1,118 +1,100 @@
-[gd_scene load_steps=68 format=3 uid="uid://y7nqxb0ngwf0"]
+[gd_scene load_steps=50 format=3 uid="uid://b12hou74bx04o"]
 
-[ext_resource type="Texture2D" uid="uid://cquma2f5kvds0" path="res://MapTextures/Grass.png" id="1_i0bx1"]
-[ext_resource type="Texture2D" uid="uid://df8umbl3j3ju8" path="res://MapTextures/RoadSideGrass.png" id="3_s7ty5"]
-[ext_resource type="Texture2D" uid="uid://cwjakmsadnct3" path="res://MapTextures/FlowerGrass.png" id="4_xnfob"]
-[ext_resource type="Texture2D" uid="uid://ba7fgxpfbxej6" path="res://MapTextures/FlowerGrass3.png" id="5_8qmnk"]
-[ext_resource type="Texture2D" uid="uid://dudr3y80g1axd" path="res://MapTextures/FlowerGrass2.png" id="6_vcbpt"]
-[ext_resource type="Texture2D" uid="uid://cfohwg1ljxosk" path="res://MapTextures/RoadSideGrass2.png" id="9_h4cgc"]
-[ext_resource type="Texture2D" uid="uid://bq2mfe1dqg73y" path="res://MapTextures/RoadSideGrassCorner.png" id="10_0fvkn"]
-[ext_resource type="Texture2D" uid="uid://p1j05vx3qb4f" path="res://MapTextures/RoadSideGrassDeepCorner.png" id="11_hnjrv"]
-[ext_resource type="Texture2D" uid="uid://dd8080i0jbg8" path="res://MapTextures/RoadSideGrassUp.png" id="12_00h8k"]
-[ext_resource type="Texture2D" uid="uid://c5sbuqjlj6q5y" path="res://MapTextures/RoadSideGrassDown.png" id="13_bam3f"]
-[ext_resource type="Texture2D" uid="uid://cdp5m5ql6do7s" path="res://MapTextures/RoadSideGrassUpperCorner.png" id="14_vt7dc"]
-[ext_resource type="Texture2D" uid="uid://buhd0pv88sao2" path="res://MapTextures/RoadSideGrassSide.png" id="15_cybtu"]
-[ext_resource type="Texture2D" uid="uid://c1xbmmn5gtwi4" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
-[ext_resource type="Texture2D" uid="uid://cwhu4ytya0n8k" path="res://MapTextures/DirtWallCorner.png" id="17_scjyc"]
-[ext_resource type="Texture2D" uid="uid://ji8y1qx18bwm" path="res://MapTextures/DirtWallCornerDarker.png" id="18_wcpqi"]
-[ext_resource type="Texture2D" uid="uid://d2re6i7fmgeou" path="res://MapTextures/DirtWallFloorDarker.png" id="19_dcfto"]
-[ext_resource type="Texture2D" uid="uid://bqklj88655djm" path="res://MapTextures/DirtFloorBrighter.png" id="20_byk1f"]
-[ext_resource type="Texture2D" uid="uid://bmuasm4d0oj6l" path="res://MapTextures/DirtFloorBrighter2.png" id="21_m4mqd"]
-[ext_resource type="Texture2D" uid="uid://cecblmvt7krbb" path="res://MapTextures/DirtFloorBrighter3.png" id="22_ijqck"]
-[ext_resource type="Texture2D" uid="uid://bpwmqq056ga5y" path="res://MapTextures/DirtFloorBrighter4.png" id="23_7bnpm"]
-[ext_resource type="Texture2D" uid="uid://bi7djje765gh" path="res://MapTextures/DirtWallLeftDarker.png" id="24_c2y8o"]
-[ext_resource type="Texture2D" uid="uid://cnepwcfmh0t1" path="res://MapTextures/DirtWallLeftBrighter.png" id="25_6ub1r"]
-[ext_resource type="Texture2D" uid="uid://dl4qgru7fmenp" path="res://MapTextures/DirtWallLeftBrighter3.png" id="26_mvpoo"]
-[ext_resource type="Texture2D" uid="uid://bptqmbjvfita8" path="res://MapTextures/CaveBackgroundStone.png" id="27_uq3rn"]
-[ext_resource type="Texture2D" uid="uid://c0b2bkbhbhy3r" path="res://MapTextures/CaveBackgroundStone2.png" id="28_f4fp2"]
-[ext_resource type="Texture2D" uid="uid://ctwri5sp62vne" path="res://MapTextures/CaveBackgroundStone3.png" id="29_mgme2"]
-[ext_resource type="Texture2D" uid="uid://duge7ym670edq" path="res://MapTextures/CaveBackgroundStone5.png" id="30_wu68r"]
-[ext_resource type="Texture2D" uid="uid://c0b0cgpi6xjbe" path="res://MapTextures/CaveBackgroundStone6.png" id="31_mrvik"]
-[ext_resource type="Texture2D" uid="uid://cs65dksduorgq" path="res://MapTextures/CaveBackgroundStone4.png" id="32_mx3je"]
-[ext_resource type="Texture2D" uid="uid://b2040i1u6200p" path="res://MapTextures/CaveBackgroundStoneLayer1.png" id="33_oehhq"]
-[ext_resource type="Texture2D" uid="uid://c5beedsj870fr" path="res://MapTextures/CaveBackgroundStoneLayer2.png" id="34_1wuue"]
-[ext_resource type="Texture2D" uid="uid://t2eabaklcrkt" path="res://MapTextures/CaveBackgroundStoneLayer3.png" id="35_8878a"]
-[ext_resource type="Texture2D" uid="uid://b1n26r7spck25" path="res://MapTextures/CaveBackgroundStoneLayer4.png" id="36_6gmsr"]
-[ext_resource type="Texture2D" uid="uid://b8wpatmxwtk0p" path="res://Player/Playable Character Waking 1.png" id="37_j05do"]
-[ext_resource type="Texture2D" uid="uid://gql08ubcywvb" path="res://MapTextures/CaveBackgroundStoneLayer5.png" id="37_nqlf6"]
-[ext_resource type="Texture2D" uid="uid://bsk5heyjxq3sg" path="res://MapTextures/CaveBackgroundStoneLayer6.png" id="38_5yfxd"]
-[ext_resource type="Texture2D" uid="uid://bpsvsl1kgwcil" path="res://Player/Playable Character Waking 2.png" id="38_7j3h8"]
-[ext_resource type="Texture2D" uid="uid://brjjpxt8ycq1c" path="res://MapTextures/CaveBackgroundStoneLayer7.png" id="39_6foni"]
-[ext_resource type="Texture2D" uid="uid://dttxxlf4lk61u" path="res://Player/Playable Character Waking 3.png" id="39_nol7q"]
-[ext_resource type="Texture2D" uid="uid://borxiv28ywb60" path="res://MapTextures/CaveBackgroundStoneLayer8.png" id="40_2qo2c"]
-[ext_resource type="Texture2D" uid="uid://do7qhaj0ttbp3" path="res://Player/Playable Character Waking 4.png" id="40_whv5q"]
-[ext_resource type="Texture2D" uid="uid://bo5jidjydxbxv" path="res://Player/Playable Character Waking 5.png" id="41_4ov84"]
-[ext_resource type="Texture2D" uid="uid://s3eyx22k8tv3" path="res://MapTextures/CaveBackgroundStoneLayer9.png" id="41_q6j8f"]
-[ext_resource type="Texture2D" uid="uid://cypdwobnwk48x" path="res://MapTextures/CaveBackgroundStoneLayer10.png" id="42_58pwx"]
-[ext_resource type="Texture2D" uid="uid://kkl5qsytauv4" path="res://Player/Playable Character Waking 6.png" id="42_pjrjm"]
-[ext_resource type="Texture2D" uid="uid://e2xywxj620vj" path="res://Player/Playable Character Waking 7.png" id="43_a5fyo"]
-[ext_resource type="Texture2D" uid="uid://bag3bb2ag1iiv" path="res://MapTextures/CaveBackgroundStoneLayer11.png" id="43_t7yo6"]
-[ext_resource type="Texture2D" uid="uid://cheuj4nsy138d" path="res://MapTextures/CaveBackgroundStoneLayer12.png" id="44_gp2xx"]
-[ext_resource type="Texture2D" uid="uid://crw74hd7vn7jb" path="res://Player/Playable Character Waking 8.png" id="44_xeis1"]
-[ext_resource type="Texture2D" uid="uid://bi1hjeng6t8vj" path="res://Player/Playable Character Waking 9.png" id="45_n8pv4"]
-[ext_resource type="Texture2D" uid="uid://b5w6fsx65117n" path="res://Player/Playable Character Waking 10.png" id="46_7ehxr"]
-[ext_resource type="Texture2D" uid="uid://dpn30lqu8vvcb" path="res://Player/Playable Character Waking 11.png" id="47_28mcu"]
-[ext_resource type="Texture2D" uid="uid://loem0wvlj5l2" path="res://Player/Playable Character Waking 12.png" id="48_5t7nl"]
-[ext_resource type="Texture2D" uid="uid://eyw3tjwlpg5a" path="res://Player/Playable Character Waking 13.png" id="49_0d1a6"]
-[ext_resource type="Texture2D" uid="uid://ch4gudc0q7ytg" path="res://Player/Playable Character Waking 14.png" id="50_5ohg3"]
-[ext_resource type="Texture2D" uid="uid://bxwtwppw1pkx2" path="res://Player/Playable Character Waking 15.png" id="51_q6fo7"]
-[ext_resource type="Texture2D" uid="uid://d3qibuvk7mmnd" path="res://MapTextures/DirtHoleLeft.png" id="60_u2fsa"]
-[ext_resource type="Texture2D" uid="uid://cgn02vp256gjy" path="res://MapTextures/DirtHoleCorner.png" id="61_aop1e"]
-[ext_resource type="Texture2D" uid="uid://dyfdkjfoqrpo" path="res://MapTextures/DirtHoleCornerPIT1.png" id="62_y0kss"]
-[ext_resource type="Texture2D" uid="uid://bvk1kvo7m2m5x" path="res://MapTextures/DirtHoleSide.png" id="63_8xq0s"]
-[ext_resource type="Texture2D" uid="uid://r4farnp85i3d" path="res://MapTextures/DirtHoleSide2.png" id="64_q4anp"]
-[ext_resource type="Texture2D" uid="uid://dlxi5pfn20xoo" path="res://RobinHoodLookinAss/Frame1.png" id="65_57a5k"]
-[ext_resource type="Texture2D" uid="uid://bbsobyojl1d03" path="res://RobinHoodLookinAss/Frame2.png" id="66_giknl"]
-[ext_resource type="Texture2D" uid="uid://baldccse3q4qq" path="res://MapTextures/Player_Character_Back.png" id="67_5j6ls"]
-[ext_resource type="Texture2D" uid="uid://dg3qequ5f2qv7" path="res://MapTextures/Tree1.png" id="68_vftob"]
+[ext_resource type="Texture2D" uid="uid://bjoatayys2qny" path="res://MapTextures/Grass.png" id="1_i0bx1"]
+[ext_resource type="Texture2D" uid="uid://bvg1fimjww6jw" path="res://MapTextures/RoadSideGrass.png" id="3_s7ty5"]
+[ext_resource type="Texture2D" uid="uid://qjv0rn3bld3t" path="res://MapTextures/FlowerGrass.png" id="4_xnfob"]
+[ext_resource type="Texture2D" uid="uid://cx0oucp8pxnwq" path="res://MapTextures/FlowerGrass3.png" id="5_8qmnk"]
+[ext_resource type="Texture2D" uid="uid://bfliv16ywlsyv" path="res://MapTextures/FlowerGrass2.png" id="6_vcbpt"]
+[ext_resource type="Texture2D" uid="uid://c870ka8t5aqed" path="res://MapTextures/RoadSideGrass2.png" id="9_h4cgc"]
+[ext_resource type="Texture2D" uid="uid://c0f7ucrthtttt" path="res://MapTextures/RoadSideGrassCorner.png" id="10_0fvkn"]
+[ext_resource type="Texture2D" uid="uid://dd8tgyay6p5ka" path="res://MapTextures/RoadSideGrassDeepCorner.png" id="11_hnjrv"]
+[ext_resource type="Texture2D" uid="uid://crvwerl8k717n" path="res://MapTextures/RoadSideGrassUp.png" id="12_00h8k"]
+[ext_resource type="Texture2D" uid="uid://cav2gdj10283y" path="res://MapTextures/RoadSideGrassDown.png" id="13_bam3f"]
+[ext_resource type="Texture2D" uid="uid://c8hc3w13gswbv" path="res://MapTextures/RoadSideGrassUpperCorner.png" id="14_vt7dc"]
+[ext_resource type="Texture2D" uid="uid://sormh4vbtp30" path="res://MapTextures/RoadSideGrassSide.png" id="15_cybtu"]
+[ext_resource type="Texture2D" uid="uid://kbex4kydmbdg" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
+[ext_resource type="Texture2D" uid="uid://cshlvde5adaps" path="res://MapTextures/DirtWallCorner.png" id="17_scjyc"]
+[ext_resource type="Texture2D" uid="uid://b5j7e2pg6dtx3" path="res://MapTextures/DirtWallCornerDarker.png" id="18_wcpqi"]
+[ext_resource type="Texture2D" uid="uid://clok44f5mlfd5" path="res://MapTextures/DirtWallFloorDarker.png" id="19_dcfto"]
+[ext_resource type="Texture2D" uid="uid://bwwo1hr6hxitr" path="res://MapTextures/DirtFloorBrighter.png" id="20_byk1f"]
+[ext_resource type="Texture2D" uid="uid://ddaeocsfsqwiv" path="res://MapTextures/DirtFloorBrighter2.png" id="21_m4mqd"]
+[ext_resource type="Texture2D" uid="uid://hxjcs5uhq46c" path="res://MapTextures/DirtFloorBrighter3.png" id="22_ijqck"]
+[ext_resource type="Texture2D" uid="uid://2uykkjok0mps" path="res://MapTextures/DirtFloorBrighter4.png" id="23_7bnpm"]
+[ext_resource type="Texture2D" uid="uid://bgwvr4jj7gh3y" path="res://MapTextures/DirtWallLeftDarker.png" id="24_c2y8o"]
+[ext_resource type="Texture2D" uid="uid://hvyjabi65lcy" path="res://MapTextures/DirtWallLeftBrighter.png" id="25_6ub1r"]
+[ext_resource type="Texture2D" uid="uid://c0wrfh5715xb" path="res://MapTextures/DirtWallLeftBrighter3.png" id="26_mvpoo"]
+[ext_resource type="Texture2D" uid="uid://d02t5lespymas" path="res://MapTextures/CaveBackgroundStone.png" id="27_uq3rn"]
+[ext_resource type="Texture2D" uid="uid://dsvxcwat7v23c" path="res://MapTextures/CaveBackgroundStone2.png" id="28_f4fp2"]
+[ext_resource type="Texture2D" uid="uid://cs3ad57frf3xa" path="res://MapTextures/CaveBackgroundStone3.png" id="29_mgme2"]
+[ext_resource type="Texture2D" uid="uid://cak5qu28niee7" path="res://MapTextures/CaveBackgroundStone5.png" id="30_wu68r"]
+[ext_resource type="Texture2D" uid="uid://bm03q6ufnap7p" path="res://MapTextures/CaveBackgroundStone6.png" id="31_mrvik"]
+[ext_resource type="Texture2D" uid="uid://c4agoaox56wjm" path="res://MapTextures/CaveBackgroundStone4.png" id="32_mx3je"]
+[ext_resource type="Texture2D" uid="uid://cvyrlvrtp2dk" path="res://MapTextures/CaveBackgroundStoneLayer1.png" id="33_oehhq"]
+[ext_resource type="Texture2D" uid="uid://1v0pliv0mud6" path="res://MapTextures/CaveBackgroundStoneLayer2.png" id="34_1wuue"]
+[ext_resource type="Texture2D" uid="uid://l57cj21ha2xd" path="res://MapTextures/CaveBackgroundStoneLayer3.png" id="35_8878a"]
+[ext_resource type="Texture2D" uid="uid://cer60ci7um3sk" path="res://MapTextures/CaveBackgroundStoneLayer4.png" id="36_6gmsr"]
+[ext_resource type="Texture2D" uid="uid://dj5br64aup1qa" path="res://MapTextures/CaveBackgroundStoneLayer5.png" id="37_nqlf6"]
+[ext_resource type="Texture2D" uid="uid://dse3qtqxr117j" path="res://MapTextures/CaveBackgroundStoneLayer6.png" id="38_5yfxd"]
+[ext_resource type="Texture2D" uid="uid://cbmuyq6eflc8t" path="res://MapTextures/CaveBackgroundStoneLayer7.png" id="39_6foni"]
+[ext_resource type="Texture2D" uid="uid://cn25u2uomyedg" path="res://MapTextures/CaveBackgroundStoneLayer8.png" id="40_2qo2c"]
+[ext_resource type="Texture2D" uid="uid://ytrtjp4ldasb" path="res://MapTextures/CaveBackgroundStoneLayer9.png" id="41_q6j8f"]
+[ext_resource type="Texture2D" uid="uid://bvmdm0f7tttsk" path="res://MapTextures/CaveBackgroundStoneLayer10.png" id="42_58pwx"]
+[ext_resource type="Texture2D" uid="uid://bxb07hedke4p7" path="res://MapTextures/CaveBackgroundStoneLayer11.png" id="43_t7yo6"]
+[ext_resource type="Texture2D" uid="uid://dc2e57puwk754" path="res://MapTextures/CaveBackgroundStoneLayer12.png" id="44_gp2xx"]
+[ext_resource type="Texture2D" uid="uid://bss8w5we754q0" path="res://MapTextures/DirtHoleLeft.png" id="60_u2fsa"]
+[ext_resource type="Texture2D" uid="uid://dwqrwfoa6208e" path="res://MapTextures/DirtHoleCorner.png" id="61_aop1e"]
+[ext_resource type="Texture2D" uid="uid://dp07bbog48mrp" path="res://MapTextures/DirtHoleCornerPIT1.png" id="62_y0kss"]
+[ext_resource type="Texture2D" uid="uid://cf626qustrpht" path="res://MapTextures/DirtHoleSide.png" id="63_8xq0s"]
+[ext_resource type="Texture2D" uid="uid://nju0f4d4q26h" path="res://MapTextures/DirtHoleSide2.png" id="64_q4anp"]
+[ext_resource type="Texture2D" uid="uid://c7y58n763fccr" path="res://MapTextures/Tree1.png" id="68_vftob"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_v6qst"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("37_j05do")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("38_7j3h8")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("39_nol7q")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("40_whv5q")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("41_4ov84")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("42_pjrjm")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("43_a5fyo")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("44_xeis1")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("45_n8pv4")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("46_7ehxr")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("47_28mcu")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("48_5t7nl")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("49_0d1a6")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("50_5ohg3")
+"texture": null
 }, {
 "duration": 10.0,
-"texture": ExtResource("51_q6fo7")
+"texture": null
 }],
 "loop": true,
 "name": &"default",
@@ -123,10 +105,10 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 3.0,
-"texture": ExtResource("65_57a5k")
+"texture": null
 }, {
 "duration": 3.0,
-"texture": ExtResource("66_giknl")
+"texture": null
 }],
 "loop": true,
 "name": &"default",
@@ -1867,7 +1849,6 @@ position = Vector2(72, 312)
 
 [node name="PlayerCharacterBack" type="Sprite2D" parent="."]
 position = Vector2(41, 246)
-texture = ExtResource("67_5j6ls")
 
 [node name="StoneGrass15" type="Sprite2D" parent="."]
 position = Vector2(60, 324)
