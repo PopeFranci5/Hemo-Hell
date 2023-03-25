@@ -1,0 +1,116 @@
+[gd_scene load_steps=23 format=3 uid="uid://cubupjmv4fcnw"]
+
+[ext_resource type="Script" path="res://PlayableCharacterYoung.gd" id="1_odium"]
+[ext_resource type="Texture2D" uid="uid://022vf456unlh" path="res://Animations/Playable Character Walk Young/Playable Character Waking Left1.png" id="2_o7dpc"]
+[ext_resource type="Texture2D" uid="uid://cklppgpbg41ah" path="res://Animations/Playable Character Walk Young/Playable Character Waking Left2.png" id="3_b0dvf"]
+[ext_resource type="Texture2D" uid="uid://c2wnv7s14nx18" path="res://Animations/Playable Character Walk Young/Playable Character Waking Right1.png" id="4_h13i1"]
+[ext_resource type="Texture2D" uid="uid://btk7pai4m02jy" path="res://Animations/Playable Character Walk Young/Playable Character Waking Right2.png" id="5_2ntvy"]
+[ext_resource type="Texture2D" uid="uid://mjgfon5h77lx" path="res://Animations/Playable Character Waking Young/Playable Character Waking 1.png" id="6_gbk0d"]
+[ext_resource type="Texture2D" uid="uid://bo8jck03xnpu1" path="res://Animations/Playable Character Waking Young/Playable Character Waking 2.png" id="7_p2osg"]
+[ext_resource type="Texture2D" uid="uid://b6yiqp88je8pp" path="res://Animations/Playable Character Waking Young/Playable Character Waking 3.png" id="8_34ie5"]
+[ext_resource type="Texture2D" uid="uid://vlnhdnwupsbg" path="res://Animations/Playable Character Waking Young/Playable Character Waking 4.png" id="9_exem0"]
+[ext_resource type="Texture2D" uid="uid://d4hi8i74xa8gm" path="res://Animations/Playable Character Waking Young/Playable Character Waking 5.png" id="10_m1ars"]
+[ext_resource type="Texture2D" uid="uid://b74lhmhy4v72s" path="res://Animations/Playable Character Waking Young/Playable Character Waking 6.png" id="11_qjti7"]
+[ext_resource type="Texture2D" uid="uid://d28djpiata8fh" path="res://Animations/Playable Character Waking Young/Playable Character Waking 7.png" id="12_elaw7"]
+[ext_resource type="Texture2D" uid="uid://b3ipcp78cwfxy" path="res://Animations/Playable Character Waking Young/Playable Character Waking 8.png" id="13_ale0f"]
+[ext_resource type="Texture2D" uid="uid://dk7mwsggwv8s8" path="res://Animations/Playable Character Waking Young/Playable Character Waking 9.png" id="14_c1rbm"]
+[ext_resource type="Texture2D" uid="uid://rrhf2lvcwiy1" path="res://Animations/Playable Character Waking Young/Playable Character Waking 10.png" id="15_yuvog"]
+[ext_resource type="Texture2D" uid="uid://qwy6bcj4tdbp" path="res://Animations/Playable Character Waking Young/Playable Character Waking 11.png" id="16_jbk62"]
+[ext_resource type="Texture2D" uid="uid://dgx6bujc72x4k" path="res://Animations/Playable Character Waking Young/Playable Character Waking 12.png" id="17_ev73c"]
+[ext_resource type="Texture2D" uid="uid://bjm6kaetlnam0" path="res://Animations/Playable Character Waking Young/Playable Character Waking 13.png" id="18_ku34k"]
+[ext_resource type="Texture2D" uid="uid://ca3ot5qljxghh" path="res://Animations/Playable Character Waking Young/Playable Character Waking 14.png" id="19_px504"]
+[ext_resource type="Texture2D" uid="uid://c5b4r0aiqubog" path="res://Animations/Playable Character Waking Young/Playable Character Waking 15.png" id="20_hpwrl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ilih7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_o7dpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_b0dvf")
+}],
+"loop": true,
+"name": &"left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_h13i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2ntvy")
+}],
+"loop": true,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_gbk0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p2osg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_34ie5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_exem0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_m1ars")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qjti7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_elaw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ale0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_c1rbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_yuvog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jbk62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ev73c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ku34k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_px504")
+}, {
+"duration": 10.0,
+"texture": ExtResource("20_hpwrl")
+}],
+"loop": true,
+"name": &"waking",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4prnd"]
+size = Vector2(5, 19)
+
+[node name="PlayableCharacterYoung" type="Area2D"]
+position = Vector2(464, 307)
+scale = Vector2(4, 4)
+script = ExtResource("1_odium")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_ilih7")
+animation = &"left"
+frame_progress = 0.121454
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 2.5)
+shape = SubResource("RectangleShape2D_4prnd")
