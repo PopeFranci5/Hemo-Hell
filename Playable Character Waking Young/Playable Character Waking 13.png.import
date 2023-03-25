@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjm6kaetlnam0"
-path="res://.godot/imported/Playable Character Waking 13.png-4ebd939cae14acb8178eb83a7ba2c15a.ctex"
+path="res://.godot/imported/Playable Character Waking 13.png-a141f3ff83852114492a59ad39592ad2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game Assets/Animations/Playable Character Waking Young/Playable Character Waking 13.png"
-dest_files=["res://.godot/imported/Playable Character Waking 13.png-4ebd939cae14acb8178eb83a7ba2c15a.ctex"]
+source_file="res://Playable Character Waking Young/Playable Character Waking 13.png"
+dest_files=["res://.godot/imported/Playable Character Waking 13.png-a141f3ff83852114492a59ad39592ad2.ctex"]
 
 [params]
 

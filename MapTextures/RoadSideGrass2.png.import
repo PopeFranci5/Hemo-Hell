@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d28djpiata8fh"
-path="res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"
+uid="uid://fxdw38knjrhd"
+path="res://.godot/imported/RoadSideGrass2.png-a46e837dc983c3000368f0c48c96e0a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable Character Waking Young/Playable Character Waking 7.png"
-dest_files=["res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"]
+source_file="res://MapTextures/RoadSideGrass2.png"
+dest_files=["res://.godot/imported/RoadSideGrass2.png-a46e837dc983c3000368f0c48c96e0a4.ctex"]
 
 [params]
 

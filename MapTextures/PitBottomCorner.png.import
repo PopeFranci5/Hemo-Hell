@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d28djpiata8fh"
-path="res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"
+uid="uid://bu6rmguf64jv0"
+path="res://.godot/imported/PitBottomCorner.png-4b58c6f4a601bcda264fc5a803fd86f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable Character Waking Young/Playable Character Waking 7.png"
-dest_files=["res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"]
+source_file="res://MapTextures/PitBottomCorner.png"
+dest_files=["res://.godot/imported/PitBottomCorner.png-4b58c6f4a601bcda264fc5a803fd86f1.ctex"]
 
 [params]
 

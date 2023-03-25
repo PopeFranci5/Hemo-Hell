@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d28djpiata8fh"
-path="res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"
+uid="uid://bo4b2gqxfal21"
+path="res://.godot/imported/DirtWallFloorHalfDarkerBlend.png-e1dc6d5cd3f9842d9ea89c5aa63f8d49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable Character Waking Young/Playable Character Waking 7.png"
-dest_files=["res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"]
+source_file="res://MapTextures/DirtWallFloorHalfDarkerBlend.png"
+dest_files=["res://.godot/imported/DirtWallFloorHalfDarkerBlend.png-e1dc6d5cd3f9842d9ea89c5aa63f8d49.ctex"]
 
 [params]
 

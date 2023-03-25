@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d28djpiata8fh"
-path="res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"
+uid="uid://diyxc6wnp0kec"
+path="res://.godot/imported/HoleGraveMiddle.png-e09b5295243d67dd95af4a1c330167c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable Character Waking Young/Playable Character Waking 7.png"
-dest_files=["res://.godot/imported/Playable Character Waking 7.png-f7a3bc58188a30d7ec4ceeffffc4e87f.ctex"]
+source_file="res://MapTextures/HoleGraveMiddle.png"
+dest_files=["res://.godot/imported/HoleGraveMiddle.png-e09b5295243d67dd95af4a1c330167c6.ctex"]
 
 [params]
 
