@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://b12hou74bx04o"]
+[gd_scene load_steps=51 format=3 uid="uid://b12hou74bx04o"]
 
 [ext_resource type="Texture2D" uid="uid://bjoatayys2qny" path="res://MapTextures/Grass.png" id="1_i0bx1"]
 [ext_resource type="Texture2D" uid="uid://bvg1fimjww6jw" path="res://MapTextures/RoadSideGrass.png" id="3_s7ty5"]
@@ -44,6 +44,7 @@
 [ext_resource type="Texture2D" uid="uid://beh5cowrjt1qt" path="res://MapTextures/StoneGrass.png" id="48_5nhra"]
 [ext_resource type="Texture2D" uid="uid://twxamibpxw12" path="res://MapTextures/Gate1.png" id="48_5vvyf"]
 [ext_resource type="Texture2D" uid="uid://gwg2soqgpw8w" path="res://MapTextures/Gate2.png" id="49_uw1ox"]
+[ext_resource type="Texture2D" uid="uid://dc5vkpfrbpjdp" path="res://MapTextures/Tree2.png" id="50_jk2no"]
 [ext_resource type="Texture2D" uid="uid://bss8w5we754q0" path="res://MapTextures/DirtHoleLeft.png" id="60_u2fsa"]
 [ext_resource type="Texture2D" uid="uid://dwqrwfoa6208e" path="res://MapTextures/DirtHoleCorner.png" id="61_aop1e"]
 [ext_resource type="Texture2D" uid="uid://dp07bbog48mrp" path="res://MapTextures/DirtHoleCornerPIT1.png" id="62_y0kss"]
@@ -52,7 +53,7 @@
 
 [node name="Grass" type="Sprite2D"]
 texture_filter = 1
-position = Vector2(93, 132)
+position = Vector2(326, 225)
 texture = ExtResource("1_i0bx1")
 
 [node name="Grass" type="Sprite2D" parent="."]
@@ -1721,9 +1722,6 @@ texture = ExtResource("6_vcbpt")
 position = Vector2(-108, 192)
 texture = ExtResource("5_8qmnk")
 
-[node name="StoneGrass22" type="Sprite2D" parent="."]
-position = Vector2(-96, 180)
-
 [node name="FlowerGrass149" type="Sprite2D" parent="."]
 position = Vector2(-108, 348)
 texture = ExtResource("4_xnfob")
@@ -2131,3 +2129,11 @@ texture = ExtResource("47_asf85")
 [node name="Fence13" type="Sprite2D" parent="."]
 position = Vector2(48, 324)
 texture = ExtResource("47_asf85")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+position = Vector2(-13, 316)
+texture = ExtResource("50_jk2no")
+
+[node name="Tree3" type="Sprite2D" parent="."]
+position = Vector2(-13, 316)
+texture = ExtResource("50_jk2no")
