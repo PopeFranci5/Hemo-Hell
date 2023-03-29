@@ -1,14 +1,6 @@
-[gd_scene load_steps=51 format=3 uid="uid://b12hou74bx04o"]
+[gd_scene load_steps=40 format=3 uid="uid://b12hou74bx04o"]
 
 [ext_resource type="Texture2D" uid="uid://bjoatayys2qny" path="res://MapTextures/Grass.png" id="1_i0bx1"]
-[ext_resource type="Texture2D" uid="uid://bvg1fimjww6jw" path="res://MapTextures/RoadSideGrass.png" id="3_s7ty5"]
-[ext_resource type="Texture2D" uid="uid://qjv0rn3bld3t" path="res://MapTextures/FlowerGrass.png" id="4_xnfob"]
-[ext_resource type="Texture2D" uid="uid://cx0oucp8pxnwq" path="res://MapTextures/FlowerGrass3.png" id="5_8qmnk"]
-[ext_resource type="Texture2D" uid="uid://bfliv16ywlsyv" path="res://MapTextures/FlowerGrass2.png" id="6_vcbpt"]
-[ext_resource type="Texture2D" uid="uid://c870ka8t5aqed" path="res://MapTextures/RoadSideGrass2.png" id="9_h4cgc"]
-[ext_resource type="Texture2D" uid="uid://dd8tgyay6p5ka" path="res://MapTextures/RoadSideGrassDeepCorner.png" id="11_hnjrv"]
-[ext_resource type="Texture2D" uid="uid://crvwerl8k717n" path="res://MapTextures/RoadSideGrassUp.png" id="12_00h8k"]
-[ext_resource type="Texture2D" uid="uid://cav2gdj10283y" path="res://MapTextures/RoadSideGrassDown.png" id="13_bam3f"]
 [ext_resource type="Texture2D" uid="uid://kbex4kydmbdg" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
 [ext_resource type="Texture2D" uid="uid://cshlvde5adaps" path="res://MapTextures/DirtWallCorner.png" id="17_scjyc"]
 [ext_resource type="Texture2D" uid="uid://b5j7e2pg6dtx3" path="res://MapTextures/DirtWallCornerDarker.png" id="18_wcpqi"]
@@ -24,792 +16,34 @@
 [ext_resource type="Texture2D" uid="uid://dsvxcwat7v23c" path="res://MapTextures/CaveBackgroundStone2.png" id="28_f4fp2"]
 [ext_resource type="Texture2D" uid="uid://cs3ad57frf3xa" path="res://MapTextures/CaveBackgroundStone3.png" id="29_mgme2"]
 [ext_resource type="Texture2D" uid="uid://cak5qu28niee7" path="res://MapTextures/CaveBackgroundStone5.png" id="30_wu68r"]
+[ext_resource type="Texture2D" uid="uid://wb805gk467pw" path="res://NewMapTextures/GrassTest10.png" id="31_le245"]
 [ext_resource type="Texture2D" uid="uid://bm03q6ufnap7p" path="res://MapTextures/CaveBackgroundStone6.png" id="31_mrvik"]
+[ext_resource type="Texture2D" uid="uid://bkpsktqxy5who" path="res://NewMapTextures/GrassTest11.png" id="32_6ejtk"]
 [ext_resource type="Texture2D" uid="uid://c4agoaox56wjm" path="res://MapTextures/CaveBackgroundStone4.png" id="32_mx3je"]
 [ext_resource type="Texture2D" uid="uid://cvyrlvrtp2dk" path="res://MapTextures/CaveBackgroundStoneLayer1.png" id="33_oehhq"]
+[ext_resource type="Texture2D" uid="uid://b1b7qnjncfig7" path="res://NewMapTextures/GrassStoneTest.png" id="33_wu0gb"]
 [ext_resource type="Texture2D" uid="uid://1v0pliv0mud6" path="res://MapTextures/CaveBackgroundStoneLayer2.png" id="34_1wuue"]
+[ext_resource type="Texture2D" uid="uid://u2u8lj0wn7ju" path="res://NewMapTextures/GrassStone2.png" id="34_rdfey"]
 [ext_resource type="Texture2D" uid="uid://l57cj21ha2xd" path="res://MapTextures/CaveBackgroundStoneLayer3.png" id="35_8878a"]
+[ext_resource type="Texture2D" uid="uid://dm1f4c2uyo36i" path="res://NewMapTextures/GrassMountain.png" id="35_m2n10"]
 [ext_resource type="Texture2D" uid="uid://cer60ci7um3sk" path="res://MapTextures/CaveBackgroundStoneLayer4.png" id="36_6gmsr"]
+[ext_resource type="Texture2D" uid="uid://c4dc5qbhpaua6" path="res://NewMapTextures/GrassMountain2.png" id="36_i440p"]
+[ext_resource type="Texture2D" uid="uid://ru1fomgbidas" path="res://NewMapTextures/GrassMountainCorner.png" id="37_jyo8t"]
 [ext_resource type="Texture2D" uid="uid://dj5br64aup1qa" path="res://MapTextures/CaveBackgroundStoneLayer5.png" id="37_nqlf6"]
+[ext_resource type="Texture2D" uid="uid://demdwuqkglra8" path="res://NewMapTextures/GrassMountainTop.png" id="38_0us36"]
 [ext_resource type="Texture2D" uid="uid://dse3qtqxr117j" path="res://MapTextures/CaveBackgroundStoneLayer6.png" id="38_5yfxd"]
 [ext_resource type="Texture2D" uid="uid://cbmuyq6eflc8t" path="res://MapTextures/CaveBackgroundStoneLayer7.png" id="39_6foni"]
+[ext_resource type="Texture2D" uid="uid://bv3oxay16iopo" path="res://NewMapTextures/Puddle.png" id="39_s67eo"]
 [ext_resource type="Texture2D" uid="uid://cn25u2uomyedg" path="res://MapTextures/CaveBackgroundStoneLayer8.png" id="40_2qo2c"]
 [ext_resource type="Texture2D" uid="uid://ytrtjp4ldasb" path="res://MapTextures/CaveBackgroundStoneLayer9.png" id="41_q6j8f"]
 [ext_resource type="Texture2D" uid="uid://bvmdm0f7tttsk" path="res://MapTextures/CaveBackgroundStoneLayer10.png" id="42_58pwx"]
 [ext_resource type="Texture2D" uid="uid://bxb07hedke4p7" path="res://MapTextures/CaveBackgroundStoneLayer11.png" id="43_t7yo6"]
 [ext_resource type="Texture2D" uid="uid://dc2e57puwk754" path="res://MapTextures/CaveBackgroundStoneLayer12.png" id="44_gp2xx"]
-[ext_resource type="Texture2D" uid="uid://f2oj2b7l5nk7" path="res://MapTextures/RoadWellWorn.png" id="45_7b1ra"]
-[ext_resource type="Texture2D" uid="uid://bk72vqeyp8cof" path="res://MapTextures/RoadWellWorn2.png" id="46_a5vws"]
-[ext_resource type="Texture2D" uid="uid://b82cj2glht8ov" path="res://MapTextures/Fence.png" id="47_asf85"]
-[ext_resource type="Texture2D" uid="uid://beh5cowrjt1qt" path="res://MapTextures/StoneGrass.png" id="48_5nhra"]
-[ext_resource type="Texture2D" uid="uid://twxamibpxw12" path="res://MapTextures/Gate1.png" id="48_5vvyf"]
-[ext_resource type="Texture2D" uid="uid://gwg2soqgpw8w" path="res://MapTextures/Gate2.png" id="49_uw1ox"]
-[ext_resource type="Texture2D" uid="uid://dc5vkpfrbpjdp" path="res://MapTextures/Tree2.png" id="50_jk2no"]
-[ext_resource type="Texture2D" uid="uid://bss8w5we754q0" path="res://MapTextures/DirtHoleLeft.png" id="60_u2fsa"]
-[ext_resource type="Texture2D" uid="uid://dwqrwfoa6208e" path="res://MapTextures/DirtHoleCorner.png" id="61_aop1e"]
-[ext_resource type="Texture2D" uid="uid://dp07bbog48mrp" path="res://MapTextures/DirtHoleCornerPIT1.png" id="62_y0kss"]
-[ext_resource type="Texture2D" uid="uid://cf626qustrpht" path="res://MapTextures/DirtHoleSide.png" id="63_8xq0s"]
-[ext_resource type="Texture2D" uid="uid://nju0f4d4q26h" path="res://MapTextures/DirtHoleSide2.png" id="64_q4anp"]
 
 [node name="Grass" type="Sprite2D"]
 texture_filter = 1
-position = Vector2(326, 225)
+position = Vector2(1179, 167)
 texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="."]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass" type="Sprite2D" parent="."]
-position = Vector2(-24, 12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass2" type="Sprite2D" parent="."]
-position = Vector2(-24, -12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass3" type="Sprite2D" parent="."]
-position = Vector2(-24, 24)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass4" type="Sprite2D" parent="."]
-position = Vector2(-24, -24)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="."]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="."]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass6" type="Sprite2D" parent="."]
-position = Vector2(-12, -24)
-texture = ExtResource("4_xnfob")
-
-[node name="RoadSideGrass5" type="Sprite2D" parent="."]
-position = Vector2(-24, 0)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="."]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="."]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass2" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(0, 60)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass2"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass" type="Sprite2D" parent="Grass2"]
-position = Vector2(-24, 12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass2" type="Sprite2D" parent="Grass2"]
-position = Vector2(-24, -12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass3" type="Sprite2D" parent="Grass2"]
-position = Vector2(-24, 24)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass4" type="Sprite2D" parent="Grass2"]
-position = Vector2(-24, -24)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass2"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass2"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass5" type="Sprite2D" parent="Grass2"]
-position = Vector2(-24, 0)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass2"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass2"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass9" type="Sprite2D" parent="."]
-position = Vector2(0, 36)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass4" type="Sprite2D" parent="."]
-position = Vector2(-12, 36)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass14" type="Sprite2D" parent="."]
-position = Vector2(0, -24)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass6" type="Sprite2D" parent="."]
-position = Vector2(-60, 84)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass7" type="Sprite2D" parent="."]
-position = Vector2(-60, 72)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass8" type="Sprite2D" parent="."]
-position = Vector2(-60, 60)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass9" type="Sprite2D" parent="."]
-position = Vector2(-60, 48)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass10" type="Sprite2D" parent="."]
-position = Vector2(-60, 36)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass11" type="Sprite2D" parent="."]
-position = Vector2(-60, 24)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass12" type="Sprite2D" parent="."]
-position = Vector2(-60, 12)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass13" type="Sprite2D" parent="."]
-position = Vector2(-60, 0)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass14" type="Sprite2D" parent="."]
-position = Vector2(-60, -12)
-texture = ExtResource("9_h4cgc")
-
-[node name="FlowerGrass" type="Sprite2D" parent="."]
-position = Vector2(-72, 84)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass2" type="Sprite2D" parent="."]
-position = Vector2(-72, 72)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass3" type="Sprite2D" parent="."]
-position = Vector2(-72, 60)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass10" type="Sprite2D" parent="."]
-position = Vector2(-72, 36)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass5" type="Sprite2D" parent="."]
-position = Vector2(-72, 48)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass11" type="Sprite2D" parent="."]
-position = Vector2(0, 72)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass12" type="Sprite2D" parent="."]
-position = Vector2(0, 12)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass13" type="Sprite2D" parent="."]
-position = Vector2(-72, 12)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass15" type="Sprite2D" parent="."]
-position = Vector2(-72, 0)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass6" type="Sprite2D" parent="."]
-position = Vector2(-72, -12)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass7" type="Sprite2D" parent="."]
-position = Vector2(-84, 0)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass18" type="Sprite2D" parent="."]
-position = Vector2(-84, -12)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass19" type="Sprite2D" parent="."]
-position = Vector2(-84, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass20" type="Sprite2D" parent="."]
-position = Vector2(-84, 36)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass21" type="Sprite2D" parent="."]
-position = Vector2(-84, 48)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass8" type="Sprite2D" parent="."]
-position = Vector2(-84, 60)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass22" type="Sprite2D" parent="."]
-position = Vector2(-84, 72)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass23" type="Sprite2D" parent="."]
-position = Vector2(-84, 84)
-texture = ExtResource("6_vcbpt")
-
-[node name="RoadSideGrassDeepCorner" type="Sprite2D" parent="."]
-position = Vector2(-60, -24)
-texture = ExtResource("11_hnjrv")
-
-[node name="RoadSideGrassUp" type="Sprite2D" parent="."]
-position = Vector2(-72, -24)
-texture = ExtResource("12_00h8k")
-
-[node name="RoadSideGrassUp2" type="Sprite2D" parent="."]
-position = Vector2(-84, -24)
-texture = ExtResource("12_00h8k")
-
-[node name="Grass13" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(0, 120)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass13"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass" type="Sprite2D" parent="Grass13"]
-position = Vector2(-24, 12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass2" type="Sprite2D" parent="Grass13"]
-position = Vector2(-24, -12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass3" type="Sprite2D" parent="Grass13"]
-position = Vector2(-24, 24)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass4" type="Sprite2D" parent="Grass13"]
-position = Vector2(-24, -24)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass13"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass13"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass5" type="Sprite2D" parent="Grass13"]
-position = Vector2(-24, 0)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass13"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass13"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass30" type="Sprite2D" parent="."]
-position = Vector2(0, 96)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass14" type="Sprite2D" parent="."]
-position = Vector2(-12, 96)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass15" type="Sprite2D" parent="."]
-position = Vector2(-60, 144)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass18" type="Sprite2D" parent="."]
-position = Vector2(-60, 132)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass19" type="Sprite2D" parent="."]
-position = Vector2(-60, 120)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass20" type="Sprite2D" parent="."]
-position = Vector2(-60, 108)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass21" type="Sprite2D" parent="."]
-position = Vector2(-60, 96)
-texture = ExtResource("9_h4cgc")
-
-[node name="FlowerGrass31" type="Sprite2D" parent="."]
-position = Vector2(-72, 144)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass32" type="Sprite2D" parent="."]
-position = Vector2(-72, 132)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass33" type="Sprite2D" parent="."]
-position = Vector2(-72, 120)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass34" type="Sprite2D" parent="."]
-position = Vector2(-72, 96)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass15" type="Sprite2D" parent="."]
-position = Vector2(-72, 108)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass35" type="Sprite2D" parent="."]
-position = Vector2(0, 132)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass36" type="Sprite2D" parent="."]
-position = Vector2(-84, 96)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass37" type="Sprite2D" parent="."]
-position = Vector2(-84, 108)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass16" type="Sprite2D" parent="."]
-position = Vector2(-84, 120)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass38" type="Sprite2D" parent="."]
-position = Vector2(-84, 132)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass39" type="Sprite2D" parent="."]
-position = Vector2(-84, 144)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass17" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(0, 180)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass17"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass" type="Sprite2D" parent="Grass17"]
-position = Vector2(-24, 12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass2" type="Sprite2D" parent="Grass17"]
-position = Vector2(-24, -12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass3" type="Sprite2D" parent="Grass17"]
-position = Vector2(-24, 24)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass4" type="Sprite2D" parent="Grass17"]
-position = Vector2(-24, -24)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass17"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass17"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass5" type="Sprite2D" parent="Grass17"]
-position = Vector2(-24, 0)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass17"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass17"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass40" type="Sprite2D" parent="."]
-position = Vector2(0, 156)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass18" type="Sprite2D" parent="."]
-position = Vector2(-12, 156)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass22" type="Sprite2D" parent="."]
-position = Vector2(-60, 204)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass23" type="Sprite2D" parent="."]
-position = Vector2(-60, 192)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass24" type="Sprite2D" parent="."]
-position = Vector2(-60, 180)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass25" type="Sprite2D" parent="."]
-position = Vector2(-60, 168)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass26" type="Sprite2D" parent="."]
-position = Vector2(-60, 156)
-texture = ExtResource("9_h4cgc")
-
-[node name="FlowerGrass41" type="Sprite2D" parent="."]
-position = Vector2(-72, 204)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass42" type="Sprite2D" parent="."]
-position = Vector2(-72, 192)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass43" type="Sprite2D" parent="."]
-position = Vector2(-72, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass44" type="Sprite2D" parent="."]
-position = Vector2(-72, 156)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass19" type="Sprite2D" parent="."]
-position = Vector2(-72, 168)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass45" type="Sprite2D" parent="."]
-position = Vector2(0, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass46" type="Sprite2D" parent="."]
-position = Vector2(-84, 156)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass47" type="Sprite2D" parent="."]
-position = Vector2(-84, 168)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass20" type="Sprite2D" parent="."]
-position = Vector2(-84, 180)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass48" type="Sprite2D" parent="."]
-position = Vector2(-84, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass49" type="Sprite2D" parent="."]
-position = Vector2(-84, 204)
-texture = ExtResource("6_vcbpt")
-
-[node name="RoadSideGrass27" type="Sprite2D" parent="."]
-position = Vector2(12, 216)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass28" type="Sprite2D" parent="."]
-position = Vector2(12, 228)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass29" type="Sprite2D" parent="."]
-position = Vector2(72, 216)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrassDown7" type="Sprite2D" parent="."]
-position = Vector2(24, 204)
-texture = ExtResource("13_bam3f")
-
-[node name="RoadSideGrassDown6" type="Sprite2D" parent="."]
-position = Vector2(36, 204)
-texture = ExtResource("13_bam3f")
-
-[node name="RoadSideGrass30" type="Sprite2D" parent="."]
-position = Vector2(72, 228)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass31" type="Sprite2D" parent="."]
-position = Vector2(12, 240)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass32" type="Sprite2D" parent="."]
-position = Vector2(72, 240)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass33" type="Sprite2D" parent="."]
-position = Vector2(12, 252)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass34" type="Sprite2D" parent="."]
-position = Vector2(72, 252)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass50" type="Sprite2D" parent="."]
-position = Vector2(12, 204)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass52" type="Sprite2D" parent="."]
-position = Vector2(0, 276)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass37" type="Sprite2D" parent="."]
-position = Vector2(-24, 216)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass53" type="Sprite2D" parent="."]
-position = Vector2(-12, 228)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass21" type="Sprite2D" parent="."]
-position = Vector2(-12, 240)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass54" type="Sprite2D" parent="."]
-position = Vector2(0, 240)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass55" type="Sprite2D" parent="."]
-position = Vector2(0, 228)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass56" type="Sprite2D" parent="."]
-position = Vector2(0, 216)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass22" type="Sprite2D" parent="."]
-position = Vector2(0, 252)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass57" type="Sprite2D" parent="."]
-position = Vector2(-12, 252)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass58" type="Sprite2D" parent="."]
-position = Vector2(-12, 264)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass59" type="Sprite2D" parent="."]
-position = Vector2(-12, 276)
-texture = ExtResource("6_vcbpt")
-
-[node name="RoadSideGrass38" type="Sprite2D" parent="."]
-position = Vector2(-24, 228)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass39" type="Sprite2D" parent="."]
-position = Vector2(-24, 240)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass40" type="Sprite2D" parent="."]
-position = Vector2(-24, 252)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass41" type="Sprite2D" parent="."]
-position = Vector2(-24, 264)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass42" type="Sprite2D" parent="."]
-position = Vector2(-24, 276)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass43" type="Sprite2D" parent="."]
-position = Vector2(-24, 288)
-texture = ExtResource("3_s7ty5")
-
-[node name="Grass24" type="Sprite2D" parent="."]
-position = Vector2(-12, 288)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass45" type="Sprite2D" parent="."]
-position = Vector2(-60, 288)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass46" type="Sprite2D" parent="."]
-position = Vector2(-60, 276)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass47" type="Sprite2D" parent="."]
-position = Vector2(-60, 264)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass48" type="Sprite2D" parent="."]
-position = Vector2(-60, 252)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass49" type="Sprite2D" parent="."]
-position = Vector2(-60, 240)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass50" type="Sprite2D" parent="."]
-position = Vector2(-60, 228)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass51" type="Sprite2D" parent="."]
-position = Vector2(-60, 216)
-texture = ExtResource("9_h4cgc")
-
-[node name="Grass25" type="Sprite2D" parent="."]
-position = Vector2(0, 288)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass27" type="Sprite2D" parent="."]
-position = Vector2(12, 300)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass63" type="Sprite2D" parent="."]
-position = Vector2(24, 300)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass64" type="Sprite2D" parent="."]
-position = Vector2(36, 300)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass28" type="Sprite2D" parent="."]
-position = Vector2(48, 300)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrassUp3" type="Sprite2D" parent="."]
-position = Vector2(24, 288)
-texture = ExtResource("12_00h8k")
-
-[node name="RoadSideGrassUp4" type="Sprite2D" parent="."]
-position = Vector2(48, 288)
-texture = ExtResource("12_00h8k")
-
-[node name="FlowerGrass67" type="Sprite2D" parent="."]
-position = Vector2(-72, 216)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass31" type="Sprite2D" parent="."]
-position = Vector2(-84, 216)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass32" type="Sprite2D" parent="."]
-position = Vector2(-72, 240)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass68" type="Sprite2D" parent="."]
-position = Vector2(-84, 228)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass69" type="Sprite2D" parent="."]
-position = Vector2(-72, 252)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass70" type="Sprite2D" parent="."]
-position = Vector2(-84, 240)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass33" type="Sprite2D" parent="."]
-position = Vector2(-84, 252)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass71" type="Sprite2D" parent="."]
-position = Vector2(-72, 264)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass34" type="Sprite2D" parent="."]
-position = Vector2(-72, 276)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass72" type="Sprite2D" parent="."]
-position = Vector2(-84, 264)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass73" type="Sprite2D" parent="."]
-position = Vector2(-84, 276)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass74" type="Sprite2D" parent="."]
-position = Vector2(-72, 288)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass35" type="Sprite2D" parent="."]
-position = Vector2(-72, 300)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass75" type="Sprite2D" parent="."]
-position = Vector2(-84, 300)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass76" type="Sprite2D" parent="."]
-position = Vector2(-84, 288)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass77" type="Sprite2D" parent="."]
-position = Vector2(12, 192)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass36" type="Sprite2D" parent="."]
-position = Vector2(24, 192)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass78" type="Sprite2D" parent="."]
-position = Vector2(48, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass79" type="Sprite2D" parent="."]
-position = Vector2(12, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass80" type="Sprite2D" parent="."]
-position = Vector2(24, 180)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass81" type="Sprite2D" parent="."]
-position = Vector2(36, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass37" type="Sprite2D" parent="."]
-position = Vector2(48, 180)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass82" type="Sprite2D" parent="."]
-position = Vector2(60, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass83" type="Sprite2D" parent="."]
-position = Vector2(60, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass90" type="Sprite2D" parent="."]
-position = Vector2(60, 300)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass60" type="Sprite2D" parent="."]
-position = Vector2(-12, 300)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrassDown" type="Sprite2D" parent="."]
-position = Vector2(48, 204)
-texture = ExtResource("13_bam3f")
-
-[node name="RoadSideGrass35" type="Sprite2D" parent="."]
-position = Vector2(12, 264)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrassUp5" type="Sprite2D" parent="."]
-position = Vector2(36, 288)
-texture = ExtResource("12_00h8k")
-
-[node name="RoadSideGrassUp6" type="Sprite2D" parent="."]
-position = Vector2(60, 288)
-texture = ExtResource("12_00h8k")
-
-[node name="RoadSideGrass36" type="Sprite2D" parent="."]
-position = Vector2(72, 264)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass92" type="Sprite2D" parent="."]
-position = Vector2(72, 288)
-texture = ExtResource("6_vcbpt")
 
 [node name="DirtWallLeft" type="Sprite2D" parent="."]
 position = Vector2(422, 240)
@@ -1119,1021 +353,334 @@ flip_v = true
 position = Vector2(434, 204)
 texture = ExtResource("31_mrvik")
 
-[node name="DirtHoleLeft" type="Sprite2D" parent="."]
-position = Vector2(24, 228)
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft2" type="Sprite2D" parent="."]
-position = Vector2(24, 252)
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft3" type="Sprite2D" parent="."]
-position = Vector2(24, 240)
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft4" type="Sprite2D" parent="."]
-position = Vector2(24, 264)
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft5" type="Sprite2D" parent="."]
-position = Vector2(60, 264)
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="DirtHoleLeft6" type="Sprite2D" parent="."]
-position = Vector2(60, 252)
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="DirtHoleLeft7" type="Sprite2D" parent="."]
-position = Vector2(60, 240)
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="DirtHoleLeft8" type="Sprite2D" parent="."]
-position = Vector2(60, 228)
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="RoadSideGrass44" type="Sprite2D" parent="."]
-position = Vector2(72, 276)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrassDown2" type="Sprite2D" parent="."]
-position = Vector2(60, 204)
-texture = ExtResource("13_bam3f")
-
-[node name="RoadSideGrass17" type="Sprite2D" parent="."]
-position = Vector2(12, 276)
-texture = ExtResource("9_h4cgc")
-
-[node name="FlowerGrass84" type="Sprite2D" parent="."]
-position = Vector2(72, 204)
-texture = ExtResource("4_xnfob")
-
-[node name="DirtHoleLeft9" type="Sprite2D" parent="."]
-position = Vector2(36, 216)
-rotation = 1.5708
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft10" type="Sprite2D" parent="."]
-position = Vector2(48, 216)
-rotation = 1.5708
-texture = ExtResource("60_u2fsa")
-
-[node name="DirtHoleLeft11" type="Sprite2D" parent="."]
-position = Vector2(36, 276)
-rotation = 1.5708
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="DirtHoleLeft12" type="Sprite2D" parent="."]
-position = Vector2(48, 276)
-rotation = 1.5708
-texture = ExtResource("60_u2fsa")
-flip_h = true
-
-[node name="DirtHoleCorner" type="Sprite2D" parent="."]
-position = Vector2(60, 216)
-texture = ExtResource("61_aop1e")
-flip_h = true
-
-[node name="DirtHoleCorner2" type="Sprite2D" parent="."]
-position = Vector2(24, 216)
-texture = ExtResource("61_aop1e")
-
-[node name="DirtHoleCorner3" type="Sprite2D" parent="."]
-position = Vector2(60, 276)
-texture = ExtResource("61_aop1e")
-flip_h = true
-flip_v = true
-
-[node name="DirtHoleCorner4" type="Sprite2D" parent="."]
-position = Vector2(24, 276)
-texture = ExtResource("61_aop1e")
-flip_v = true
-
-[node name="DirtHoleCornerPit1" type="Sprite2D" parent="."]
-position = Vector2(36, 228)
-texture = ExtResource("62_y0kss")
-flip_v = true
-
-[node name="DirtHoleCornerPit2" type="Sprite2D" parent="."]
-position = Vector2(48, 228)
-texture = ExtResource("62_y0kss")
-flip_h = true
-flip_v = true
-
-[node name="DirtHoleCornerPit3" type="Sprite2D" parent="."]
-position = Vector2(48, 264)
-texture = ExtResource("62_y0kss")
-flip_h = true
-
-[node name="DirtHoleCornerPit4" type="Sprite2D" parent="."]
-position = Vector2(36, 264)
-texture = ExtResource("62_y0kss")
-
-[node name="DirtHoleSide" type="Sprite2D" parent="."]
-position = Vector2(48, 240)
-texture = ExtResource("63_8xq0s")
-flip_h = true
-
-[node name="DirtHoleSide4" type="Sprite2D" parent="."]
-position = Vector2(36, 252)
-texture = ExtResource("63_8xq0s")
-
-[node name="DirtHoleSide5" type="Sprite2D" parent="."]
-position = Vector2(36, 240)
-texture = ExtResource("64_q4anp")
-
-[node name="DirtHoleSide6" type="Sprite2D" parent="."]
-position = Vector2(48, 252)
-texture = ExtResource("64_q4anp")
-flip_h = true
-
-[node name="RoadSideGrass52" type="Sprite2D" parent="."]
-position = Vector2(-60, 300)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass53" type="Sprite2D" parent="."]
-position = Vector2(-24, 300)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass54" type="Sprite2D" parent="."]
-position = Vector2(-24, 312)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass55" type="Sprite2D" parent="."]
-position = Vector2(-60, 312)
-texture = ExtResource("9_h4cgc")
-
-[node name="FlowerGrass51" type="Sprite2D" parent="."]
-position = Vector2(-72, 312)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass23" type="Sprite2D" parent="."]
-position = Vector2(-84, 312)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass26" type="Sprite2D" parent="."]
-position = Vector2(-84, 324)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass61" type="Sprite2D" parent="."]
-position = Vector2(-72, 324)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass29" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(0, 180)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass29"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="RoadSideGrass" type="Sprite2D" parent="Grass29"]
-position = Vector2(-24, 12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass2" type="Sprite2D" parent="Grass29"]
-position = Vector2(-24, -12)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass3" type="Sprite2D" parent="Grass29"]
-position = Vector2(-24, 24)
-texture = ExtResource("3_s7ty5")
-
-[node name="RoadSideGrass4" type="Sprite2D" parent="Grass29"]
-position = Vector2(-24, -24)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass29"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass29"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="RoadSideGrass5" type="Sprite2D" parent="Grass29"]
-position = Vector2(-24, 0)
-texture = ExtResource("3_s7ty5")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass29"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass29"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass62" type="Sprite2D" parent="."]
-position = Vector2(0, 156)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass65" type="Sprite2D" parent="."]
-position = Vector2(0, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass85" type="Sprite2D" parent="."]
-position = Vector2(12, 192)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass38" type="Sprite2D" parent="."]
-position = Vector2(24, 192)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass86" type="Sprite2D" parent="."]
-position = Vector2(48, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass87" type="Sprite2D" parent="."]
-position = Vector2(12, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass88" type="Sprite2D" parent="."]
-position = Vector2(24, 180)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass89" type="Sprite2D" parent="."]
-position = Vector2(36, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass39" type="Sprite2D" parent="."]
-position = Vector2(48, 180)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass93" type="Sprite2D" parent="."]
-position = Vector2(60, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass94" type="Sprite2D" parent="."]
-position = Vector2(60, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass66" type="Sprite2D" parent="."]
-position = Vector2(-12, 312)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass95" type="Sprite2D" parent="."]
-position = Vector2(-12, 324)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass96" type="Sprite2D" parent="."]
-position = Vector2(0, 312)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass97" type="Sprite2D" parent="."]
-position = Vector2(24, 312)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass30" type="Sprite2D" parent="."]
-position = Vector2(12, 312)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass98" type="Sprite2D" parent="."]
-position = Vector2(0, 324)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass99" type="Sprite2D" parent="."]
-position = Vector2(72, 300)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass41" type="Sprite2D" parent="."]
-position = Vector2(48, 312)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass100" type="Sprite2D" parent="."]
-position = Vector2(60, 312)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass42" type="Sprite2D" parent="."]
-position = Vector2(24, 324)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass101" type="Sprite2D" parent="."]
-position = Vector2(12, 324)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass102" type="Sprite2D" parent="."]
-position = Vector2(36, 324)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass103" type="Sprite2D" parent="."]
-position = Vector2(48, 324)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass104" type="Sprite2D" parent="."]
-position = Vector2(72, 324)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass105" type="Sprite2D" parent="."]
-position = Vector2(84, 288)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass43" type="Sprite2D" parent="."]
-position = Vector2(84, 276)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass106" type="Sprite2D" parent="."]
-position = Vector2(84, 264)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass44" type="Sprite2D" parent="."]
-position = Vector2(84, 252)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass107" type="Sprite2D" parent="."]
-position = Vector2(84, 240)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass108" type="Sprite2D" parent="."]
-position = Vector2(84, 228)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass109" type="Sprite2D" parent="."]
-position = Vector2(84, 216)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass45" type="Sprite2D" parent="."]
-position = Vector2(84, 204)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass110" type="Sprite2D" parent="."]
-position = Vector2(72, 192)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass111" type="Sprite2D" parent="."]
-position = Vector2(72, 180)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass46" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(-96, 228)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass46"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass46"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass46"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass46"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass46"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass112" type="Sprite2D" parent="."]
-position = Vector2(-96, 204)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass47" type="Sprite2D" parent="."]
-position = Vector2(-108, 204)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass113" type="Sprite2D" parent="."]
-position = Vector2(-96, 240)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass48" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(-96, 288)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass" type="Sprite2D" parent="Grass48"]
-position = Vector2(-12, 12)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass4" type="Sprite2D" parent="Grass48"]
-position = Vector2(-12, 0)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass5" type="Sprite2D" parent="Grass48"]
-position = Vector2(-12, -12)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass7" type="Sprite2D" parent="Grass48"]
-position = Vector2(-12, 24)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass8" type="Sprite2D" parent="Grass48"]
-position = Vector2(0, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass114" type="Sprite2D" parent="."]
-position = Vector2(-96, 264)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass49" type="Sprite2D" parent="."]
-position = Vector2(-108, 264)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass115" type="Sprite2D" parent="."]
-position = Vector2(-96, 300)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass116" type="Sprite2D" parent="."]
-position = Vector2(-96, 324)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass50" type="Sprite2D" parent="."]
-position = Vector2(-108, 324)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass117" type="Sprite2D" parent="."]
-position = Vector2(-96, 324)
-texture = ExtResource("6_vcbpt")
-
-[node name="Grass51" type="Sprite2D" parent="."]
-position = Vector2(-84, 0)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass118" type="Sprite2D" parent="."]
-position = Vector2(-84, 24)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass119" type="Sprite2D" parent="."]
-position = Vector2(-84, 36)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass120" type="Sprite2D" parent="."]
-position = Vector2(-84, 48)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass52" type="Sprite2D" parent="."]
-position = Vector2(-84, 60)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass121" type="Sprite2D" parent="."]
-position = Vector2(-84, 72)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass122" type="Sprite2D" parent="."]
-position = Vector2(-84, 84)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass123" type="Sprite2D" parent="."]
-position = Vector2(-84, 96)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass124" type="Sprite2D" parent="."]
-position = Vector2(-84, 108)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass53" type="Sprite2D" parent="."]
-position = Vector2(-84, 120)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass125" type="Sprite2D" parent="."]
-position = Vector2(-120, 324)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass126" type="Sprite2D" parent="."]
-position = Vector2(-108, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass127" type="Sprite2D" parent="."]
-position = Vector2(-96, 336)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass128" type="Sprite2D" parent="."]
-position = Vector2(-84, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass54" type="Sprite2D" parent="."]
-position = Vector2(-72, 336)
-texture = ExtResource("1_i0bx1")
-
-[node name="Grass55" type="Sprite2D" parent="."]
-position = Vector2(-60, 336)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass129" type="Sprite2D" parent="."]
-position = Vector2(-48, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass130" type="Sprite2D" parent="."]
-position = Vector2(-36, 336)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass131" type="Sprite2D" parent="."]
-position = Vector2(-24, 336)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass56" type="Sprite2D" parent="."]
-position = Vector2(-12, 336)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass132" type="Sprite2D" parent="."]
-position = Vector2(0, 336)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass133" type="Sprite2D" parent="."]
-position = Vector2(24, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass57" type="Sprite2D" parent="."]
-position = Vector2(36, 336)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass134" type="Sprite2D" parent="."]
-position = Vector2(48, 336)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass135" type="Sprite2D" parent="."]
-position = Vector2(60, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass136" type="Sprite2D" parent="."]
-position = Vector2(84, 312)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass137" type="Sprite2D" parent="."]
-position = Vector2(12, 168)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass138" type="Sprite2D" parent="."]
-position = Vector2(24, 168)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass58" type="Sprite2D" parent="."]
-position = Vector2(36, 168)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass139" type="Sprite2D" parent="."]
-position = Vector2(48, 168)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass140" type="Sprite2D" parent="."]
-position = Vector2(-120, 204)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass59" type="Sprite2D" parent="."]
-position = Vector2(-120, 216)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass141" type="Sprite2D" parent="."]
-position = Vector2(-120, 228)
-texture = ExtResource("5_8qmnk")
-
-[node name="Grass60" type="Sprite2D" parent="."]
-position = Vector2(-120, 252)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass142" type="Sprite2D" parent="."]
-position = Vector2(-120, 264)
-texture = ExtResource("4_xnfob")
-
-[node name="FlowerGrass143" type="Sprite2D" parent="."]
-position = Vector2(-120, 276)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass144" type="Sprite2D" parent="."]
-position = Vector2(-120, 288)
-texture = ExtResource("4_xnfob")
-
-[node name="Grass61" type="Sprite2D" parent="."]
-position = Vector2(-120, 300)
-texture = ExtResource("1_i0bx1")
-
-[node name="FlowerGrass145" type="Sprite2D" parent="."]
-position = Vector2(-120, 312)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass146" type="Sprite2D" parent="."]
-position = Vector2(-120, 336)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass147" type="Sprite2D" parent="."]
-position = Vector2(-96, 192)
-texture = ExtResource("6_vcbpt")
-
-[node name="FlowerGrass148" type="Sprite2D" parent="."]
-position = Vector2(-108, 192)
-texture = ExtResource("5_8qmnk")
-
-[node name="FlowerGrass149" type="Sprite2D" parent="."]
-position = Vector2(-108, 348)
-texture = ExtResource("4_xnfob")
-
-[node name="RoadSideGrass56" type="Sprite2D" parent="."]
-position = Vector2(-60, 324)
-texture = ExtResource("9_h4cgc")
-
-[node name="RoadSideGrass57" type="Sprite2D" parent="."]
-position = Vector2(-24, 324)
-texture = ExtResource("3_s7ty5")
-
-[node name="StoneGrass" type="Sprite2D" parent="."]
-position = Vector2(-96, 276)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass2" type="Sprite2D" parent="."]
-position = Vector2(-72, 228)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass3" type="Sprite2D" parent="."]
-position = Vector2(-96, 216)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass4" type="Sprite2D" parent="."]
-position = Vector2(-120, 240)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass5" type="Sprite2D" parent="."]
-position = Vector2(-96, 348)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass6" type="Sprite2D" parent="."]
-position = Vector2(12, 336)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass7" type="Sprite2D" parent="."]
-position = Vector2(36, 312)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass8" type="Sprite2D" parent="."]
-position = Vector2(0, 300)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass9" type="Sprite2D" parent="."]
-position = Vector2(12, 288)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass10" type="Sprite2D" parent="."]
-position = Vector2(0, 264)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass11" type="Sprite2D" parent="."]
-position = Vector2(-12, 216)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass12" type="Sprite2D" parent="."]
-position = Vector2(36, 192)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass13" type="Sprite2D" parent="."]
-position = Vector2(0, 168)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass14" type="Sprite2D" parent="."]
-position = Vector2(60, 324)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass15" type="Sprite2D" parent="."]
-position = Vector2(72, 312)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass16" type="Sprite2D" parent="."]
-position = Vector2(84, 300)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass17" type="Sprite2D" parent="."]
-position = Vector2(0, 108)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass18" type="Sprite2D" parent="."]
-position = Vector2(0, 48)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass19" type="Sprite2D" parent="."]
-position = Vector2(-72, 24)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass20" type="Sprite2D" parent="."]
-position = Vector2(-84, 12)
-texture = ExtResource("48_5nhra")
-
-[node name="StoneGrass21" type="Sprite2D" parent="."]
-position = Vector2(0, -12)
-texture = ExtResource("48_5nhra")
-
-[node name="RoadWellWorn" type="Sprite2D" parent="."]
-position = Vector2(-48, 324)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn2" type="Sprite2D" parent="."]
-position = Vector2(-36, 324)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn3" type="Sprite2D" parent="."]
-position = Vector2(-48, 312)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn4" type="Sprite2D" parent="."]
-position = Vector2(-36, 312)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn5" type="Sprite2D" parent="."]
-position = Vector2(-48, 300)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn6" type="Sprite2D" parent="."]
-position = Vector2(-36, 300)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn7" type="Sprite2D" parent="."]
-position = Vector2(-48, 288)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn8" type="Sprite2D" parent="."]
-position = Vector2(-36, 288)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn9" type="Sprite2D" parent="."]
-position = Vector2(-48, 276)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn10" type="Sprite2D" parent="."]
-position = Vector2(-36, 276)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn11" type="Sprite2D" parent="."]
-position = Vector2(-48, 264)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn12" type="Sprite2D" parent="."]
-position = Vector2(-36, 264)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn13" type="Sprite2D" parent="."]
-position = Vector2(-48, 252)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn14" type="Sprite2D" parent="."]
-position = Vector2(-36, 252)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn15" type="Sprite2D" parent="."]
-position = Vector2(-48, 240)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn16" type="Sprite2D" parent="."]
-position = Vector2(-36, 240)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn17" type="Sprite2D" parent="."]
-position = Vector2(-48, 228)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn18" type="Sprite2D" parent="."]
-position = Vector2(-36, 228)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn19" type="Sprite2D" parent="."]
-position = Vector2(-48, 216)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn20" type="Sprite2D" parent="."]
-position = Vector2(-36, 216)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn21" type="Sprite2D" parent="."]
-position = Vector2(-48, 204)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn22" type="Sprite2D" parent="."]
-position = Vector2(-36, 204)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn23" type="Sprite2D" parent="."]
-position = Vector2(-48, 192)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn24" type="Sprite2D" parent="."]
-position = Vector2(-36, 192)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn25" type="Sprite2D" parent="."]
-position = Vector2(-48, 180)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn26" type="Sprite2D" parent="."]
-position = Vector2(-36, 180)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn27" type="Sprite2D" parent="."]
-position = Vector2(-48, 168)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn28" type="Sprite2D" parent="."]
-position = Vector2(-36, 168)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn29" type="Sprite2D" parent="."]
-position = Vector2(-48, 156)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn30" type="Sprite2D" parent="."]
-position = Vector2(-36, 156)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn33" type="Sprite2D" parent="."]
-position = Vector2(-48, 312)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn35" type="Sprite2D" parent="."]
-position = Vector2(-48, 300)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn36" type="Sprite2D" parent="."]
-position = Vector2(-36, 300)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn37" type="Sprite2D" parent="."]
-position = Vector2(-48, 144)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn38" type="Sprite2D" parent="."]
-position = Vector2(-36, 144)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn39" type="Sprite2D" parent="."]
-position = Vector2(-48, 132)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn40" type="Sprite2D" parent="."]
-position = Vector2(-36, 132)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn41" type="Sprite2D" parent="."]
-position = Vector2(-48, 120)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn42" type="Sprite2D" parent="."]
-position = Vector2(-36, 120)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn43" type="Sprite2D" parent="."]
-position = Vector2(-48, 108)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn44" type="Sprite2D" parent="."]
-position = Vector2(-36, 108)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn45" type="Sprite2D" parent="."]
-position = Vector2(-48, 96)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn46" type="Sprite2D" parent="."]
-position = Vector2(-36, 96)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn47" type="Sprite2D" parent="."]
-position = Vector2(-48, 84)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn48" type="Sprite2D" parent="."]
-position = Vector2(-36, 84)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn49" type="Sprite2D" parent="."]
-position = Vector2(-48, 72)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn50" type="Sprite2D" parent="."]
-position = Vector2(-36, 72)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn51" type="Sprite2D" parent="."]
-position = Vector2(-48, 60)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn52" type="Sprite2D" parent="."]
-position = Vector2(-36, 60)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn53" type="Sprite2D" parent="."]
-position = Vector2(-48, 48)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn54" type="Sprite2D" parent="."]
-position = Vector2(-36, 48)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn55" type="Sprite2D" parent="."]
-position = Vector2(-48, 36)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn56" type="Sprite2D" parent="."]
-position = Vector2(-36, 36)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn57" type="Sprite2D" parent="."]
-position = Vector2(-48, 24)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn58" type="Sprite2D" parent="."]
-position = Vector2(-36, 24)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn59" type="Sprite2D" parent="."]
-position = Vector2(-48, 12)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn60" type="Sprite2D" parent="."]
-position = Vector2(-36, 12)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn61" type="Sprite2D" parent="."]
-position = Vector2(-48, 1)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn62" type="Sprite2D" parent="."]
-position = Vector2(-36, 1)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn63" type="Sprite2D" parent="."]
-position = Vector2(-48, -11)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn64" type="Sprite2D" parent="."]
-position = Vector2(-36, -11)
-texture = ExtResource("46_a5vws")
-
-[node name="RoadWellWorn65" type="Sprite2D" parent="."]
-position = Vector2(-48, -23)
-texture = ExtResource("45_7b1ra")
-
-[node name="RoadWellWorn66" type="Sprite2D" parent="."]
-position = Vector2(-36, -23)
-texture = ExtResource("46_a5vws")
-
-[node name="Fence" type="Sprite2D" parent="."]
-position = Vector2(-23, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence2" type="Sprite2D" parent="."]
-position = Vector2(-12, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Gate1" type="Sprite2D" parent="."]
-position = Vector2(-35, 324)
-texture = ExtResource("48_5vvyf")
-
-[node name="Gate2" type="Sprite2D" parent="."]
-position = Vector2(-49, 324)
-texture = ExtResource("49_uw1ox")
-
-[node name="Fence3" type="Sprite2D" parent="."]
-position = Vector2(-61, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence4" type="Sprite2D" parent="."]
-position = Vector2(-73, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence5" type="Sprite2D" parent="."]
-position = Vector2(-85, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence6" type="Sprite2D" parent="."]
-position = Vector2(-97, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence7" type="Sprite2D" parent="."]
-position = Vector2(-109, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence8" type="Sprite2D" parent="."]
-position = Vector2(-121, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence9" type="Sprite2D" parent="."]
-position = Vector2(0, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence10" type="Sprite2D" parent="."]
-position = Vector2(12, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence11" type="Sprite2D" parent="."]
-position = Vector2(24, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence12" type="Sprite2D" parent="."]
-position = Vector2(36, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Fence13" type="Sprite2D" parent="."]
-position = Vector2(48, 324)
-texture = ExtResource("47_asf85")
-
-[node name="Tree2" type="Sprite2D" parent="."]
-position = Vector2(-13, 316)
-texture = ExtResource("50_jk2no")
-
-[node name="Tree3" type="Sprite2D" parent="."]
-position = Vector2(-13, 316)
-texture = ExtResource("50_jk2no")
+[node name="GrassTest10" type="Sprite2D" parent="."]
+position = Vector2(-793, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest11" type="Sprite2D" parent="."]
+position = Vector2(-809, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest12" type="Sprite2D" parent="."]
+position = Vector2(-809, 178)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest13" type="Sprite2D" parent="."]
+position = Vector2(-793, 178)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest14" type="Sprite2D" parent="."]
+position = Vector2(-777, 178)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest15" type="Sprite2D" parent="."]
+position = Vector2(-777, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest16" type="Sprite2D" parent="."]
+position = Vector2(-809, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest17" type="Sprite2D" parent="."]
+position = Vector2(-793, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest18" type="Sprite2D" parent="."]
+position = Vector2(-777, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest19" type="Sprite2D" parent="."]
+position = Vector2(-825, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest22" type="Sprite2D" parent="."]
+position = Vector2(-825, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest23" type="Sprite2D" parent="."]
+position = Vector2(-809, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest25" type="Sprite2D" parent="."]
+position = Vector2(-777, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest20" type="Sprite2D" parent="."]
+position = Vector2(-825, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest21" type="Sprite2D" parent="."]
+position = Vector2(-825, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest24" type="Sprite2D" parent="."]
+position = Vector2(-793, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest26" type="Sprite2D" parent="."]
+position = Vector2(-841, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest27" type="Sprite2D" parent="."]
+position = Vector2(-841, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest28" type="Sprite2D" parent="."]
+position = Vector2(-761, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest29" type="Sprite2D" parent="."]
+position = Vector2(-761, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest30" type="Sprite2D" parent="."]
+position = Vector2(-761, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest31" type="Sprite2D" parent="."]
+position = Vector2(-809, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest32" type="Sprite2D" parent="."]
+position = Vector2(-793, 162)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest33" type="Sprite2D" parent="."]
+position = Vector2(-777, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest34" type="Sprite2D" parent="."]
+position = Vector2(-761, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest35" type="Sprite2D" parent="."]
+position = Vector2(-825, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest36" type="Sprite2D" parent="."]
+position = Vector2(-793, 146)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest37" type="Sprite2D" parent="."]
+position = Vector2(-745, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest38" type="Sprite2D" parent="."]
+position = Vector2(-745, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest39" type="Sprite2D" parent="."]
+position = Vector2(-745, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest40" type="Sprite2D" parent="."]
+position = Vector2(-841, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest41" type="Sprite2D" parent="."]
+position = Vector2(-841, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest42" type="Sprite2D" parent="."]
+position = Vector2(-809, 146)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest43" type="Sprite2D" parent="."]
+position = Vector2(-777, 146)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest44" type="Sprite2D" parent="."]
+position = Vector2(-761, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest45" type="Sprite2D" parent="."]
+position = Vector2(-857, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest46" type="Sprite2D" parent="."]
+position = Vector2(-857, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest47" type="Sprite2D" parent="."]
+position = Vector2(-873, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest48" type="Sprite2D" parent="."]
+position = Vector2(-873, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest49" type="Sprite2D" parent="."]
+position = Vector2(-873, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest50" type="Sprite2D" parent="."]
+position = Vector2(-857, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassStoneTest" type="Sprite2D" parent="."]
+position = Vector2(-857, 178)
+texture = ExtResource("33_wu0gb")
+
+[node name="GrassTest51" type="Sprite2D" parent="."]
+position = Vector2(-889, 210)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest52" type="Sprite2D" parent="."]
+position = Vector2(-889, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest53" type="Sprite2D" parent="."]
+position = Vector2(-905, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest54" type="Sprite2D" parent="."]
+position = Vector2(-921, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest55" type="Sprite2D" parent="."]
+position = Vector2(-889, 194)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest56" type="Sprite2D" parent="."]
+position = Vector2(-905, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassStone2" type="Sprite2D" parent="."]
+position = Vector2(-921, 194)
+texture = ExtResource("34_rdfey")
+
+[node name="GrassTest57" type="Sprite2D" parent="."]
+position = Vector2(-921, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest58" type="Sprite2D" parent="."]
+position = Vector2(-873, 178)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest59" type="Sprite2D" parent="."]
+position = Vector2(-889, 178)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest60" type="Sprite2D" parent="."]
+position = Vector2(-905, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest61" type="Sprite2D" parent="."]
+position = Vector2(-889, 242)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest62" type="Sprite2D" parent="."]
+position = Vector2(-905, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest63" type="Sprite2D" parent="."]
+position = Vector2(-921, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest64" type="Sprite2D" parent="."]
+position = Vector2(-905, 242)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest65" type="Sprite2D" parent="."]
+position = Vector2(-921, 242)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest66" type="Sprite2D" parent="."]
+position = Vector2(-937, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest67" type="Sprite2D" parent="."]
+position = Vector2(-937, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest68" type="Sprite2D" parent="."]
+position = Vector2(-937, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest69" type="Sprite2D" parent="."]
+position = Vector2(-937, 242)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest70" type="Sprite2D" parent="."]
+position = Vector2(-937, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassMountain" type="Sprite2D" parent="."]
+position = Vector2(-921, 234)
+texture = ExtResource("35_m2n10")
+
+[node name="GrassMountain2" type="Sprite2D" parent="."]
+position = Vector2(-905, 234)
+texture = ExtResource("35_m2n10")
+
+[node name="GrassMountain4" type="Sprite2D" parent="."]
+position = Vector2(-889, 234)
+texture = ExtResource("36_i440p")
+
+[node name="GrassMountainCorner" type="Sprite2D" parent="."]
+position = Vector2(-937, 234)
+texture = ExtResource("37_jyo8t")
+
+[node name="GrassMountainTop" type="Sprite2D" parent="."]
+position = Vector2(-937, 210)
+texture = ExtResource("38_0us36")
+
+[node name="GrassMountainTop2" type="Sprite2D" parent="."]
+position = Vector2(-937, 194)
+texture = ExtResource("38_0us36")
+
+[node name="GrassMountainTop3" type="Sprite2D" parent="."]
+position = Vector2(-937, 178)
+texture = ExtResource("38_0us36")
+
+[node name="GrassTest71" type="Sprite2D" parent="."]
+position = Vector2(-953, 242)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest72" type="Sprite2D" parent="."]
+position = Vector2(-953, 226)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest73" type="Sprite2D" parent="."]
+position = Vector2(-953, 210)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest74" type="Sprite2D" parent="."]
+position = Vector2(-953, 194)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest75" type="Sprite2D" parent="."]
+position = Vector2(-953, 178)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest76" type="Sprite2D" parent="."]
+position = Vector2(-953, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest77" type="Sprite2D" parent="."]
+position = Vector2(-937, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest78" type="Sprite2D" parent="."]
+position = Vector2(-921, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest79" type="Sprite2D" parent="."]
+position = Vector2(-905, 162)
+texture = ExtResource("32_6ejtk")
+
+[node name="GrassTest80" type="Sprite2D" parent="."]
+position = Vector2(-889, 162)
+texture = ExtResource("31_le245")
+
+[node name="GrassTest81" type="Sprite2D" parent="."]
+position = Vector2(-873, 162)
+texture = ExtResource("31_le245")
+
+[node name="Puddle" type="Sprite2D" parent="."]
+position = Vector2(-841, 162)
+texture = ExtResource("39_s67eo")
+
+[node name="Puddle2" type="Sprite2D" parent="."]
+position = Vector2(-761, 146)
+texture = ExtResource("39_s67eo")

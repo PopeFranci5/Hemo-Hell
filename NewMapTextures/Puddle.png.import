@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddxlckuslo2w4"
-path="res://.godot/imported/GrassTest.png-84625adb740c65fb22ec9fbf11197bd7.ctex"
+uid="uid://bv3oxay16iopo"
+path="res://.godot/imported/Puddle.png-2c35fc9452d3f77841b57ad3cb83141e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MapTextures/GrassTest.png"
-dest_files=["res://.godot/imported/GrassTest.png-84625adb740c65fb22ec9fbf11197bd7.ctex"]
+source_file="res://NewMapTextures/Puddle.png"
+dest_files=["res://.godot/imported/Puddle.png-2c35fc9452d3f77841b57ad3cb83141e.ctex"]
 
 [params]
 

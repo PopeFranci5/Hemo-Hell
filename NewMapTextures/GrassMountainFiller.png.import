@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddxlckuslo2w4"
-path="res://.godot/imported/GrassTest.png-84625adb740c65fb22ec9fbf11197bd7.ctex"
+uid="uid://cqy3xo1w0beiv"
+path="res://.godot/imported/GrassMountainFiller.png-5400b34841cf7d5db930cd03bad83fb1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MapTextures/GrassTest.png"
-dest_files=["res://.godot/imported/GrassTest.png-84625adb740c65fb22ec9fbf11197bd7.ctex"]
+source_file="res://NewMapTextures/GrassMountainFiller.png"
+dest_files=["res://.godot/imported/GrassMountainFiller.png-5400b34841cf7d5db930cd03bad83fb1.ctex"]
 
 [params]
 
