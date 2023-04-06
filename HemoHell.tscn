@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://b12hou74bx04o"]
+[gd_scene load_steps=45 format=3 uid="uid://b12hou74bx04o"]
 
 [ext_resource type="Texture2D" uid="uid://bjoatayys2qny" path="res://MapTextures/Grass.png" id="1_i0bx1"]
 [ext_resource type="Texture2D" uid="uid://kbex4kydmbdg" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
@@ -28,16 +28,21 @@
 [ext_resource type="Texture2D" uid="uid://dm1f4c2uyo36i" path="res://NewMapTextures/GrassMountain.png" id="35_m2n10"]
 [ext_resource type="Texture2D" uid="uid://cer60ci7um3sk" path="res://MapTextures/CaveBackgroundStoneLayer4.png" id="36_6gmsr"]
 [ext_resource type="Texture2D" uid="uid://c4dc5qbhpaua6" path="res://NewMapTextures/GrassMountain2.png" id="36_i440p"]
-[ext_resource type="Texture2D" uid="uid://ru1fomgbidas" path="res://NewMapTextures/GrassMountainCorner.png" id="37_jyo8t"]
 [ext_resource type="Texture2D" uid="uid://dj5br64aup1qa" path="res://MapTextures/CaveBackgroundStoneLayer5.png" id="37_nqlf6"]
 [ext_resource type="Texture2D" uid="uid://demdwuqkglra8" path="res://NewMapTextures/GrassMountainTop.png" id="38_0us36"]
 [ext_resource type="Texture2D" uid="uid://dse3qtqxr117j" path="res://MapTextures/CaveBackgroundStoneLayer6.png" id="38_5yfxd"]
 [ext_resource type="Texture2D" uid="uid://cbmuyq6eflc8t" path="res://MapTextures/CaveBackgroundStoneLayer7.png" id="39_6foni"]
+[ext_resource type="Texture2D" uid="uid://dkj3063l2yo3" path="res://NewMapTextures/MountainTopCorner.png" id="39_md0ns"]
 [ext_resource type="Texture2D" uid="uid://bv3oxay16iopo" path="res://NewMapTextures/Puddle.png" id="39_s67eo"]
 [ext_resource type="Texture2D" uid="uid://cn25u2uomyedg" path="res://MapTextures/CaveBackgroundStoneLayer8.png" id="40_2qo2c"]
+[ext_resource type="Texture2D" uid="uid://6bh1q82n6c2n" path="res://NewMapTextures/MountainTopCornerBottom.png" id="40_q2wtn"]
 [ext_resource type="Texture2D" uid="uid://ytrtjp4ldasb" path="res://MapTextures/CaveBackgroundStoneLayer9.png" id="41_q6j8f"]
+[ext_resource type="Texture2D" uid="uid://0gwuakqqmq1q" path="res://NewMapTextures/MountainTopFilling.png" id="41_u4tfc"]
+[ext_resource type="Texture2D" uid="uid://dyxdjghqyqufq" path="res://NewMapTextures/GrassMountainGrass.png" id="42_2hlxm"]
 [ext_resource type="Texture2D" uid="uid://bvmdm0f7tttsk" path="res://MapTextures/CaveBackgroundStoneLayer10.png" id="42_58pwx"]
 [ext_resource type="Texture2D" uid="uid://bxb07hedke4p7" path="res://MapTextures/CaveBackgroundStoneLayer11.png" id="43_t7yo6"]
+[ext_resource type="Texture2D" uid="uid://cqy3xo1w0beiv" path="res://NewMapTextures/GrassMountainFiller.png" id="43_trtev"]
+[ext_resource type="Texture2D" uid="uid://c2h70v4m0frn" path="res://NewMapTextures/MountainTopRightSide.png" id="44_e26rb"]
 [ext_resource type="Texture2D" uid="uid://dc2e57puwk754" path="res://MapTextures/CaveBackgroundStoneLayer12.png" id="44_gp2xx"]
 
 [node name="Grass" type="Sprite2D"]
@@ -617,10 +622,6 @@ texture = ExtResource("35_m2n10")
 position = Vector2(-889, 234)
 texture = ExtResource("36_i440p")
 
-[node name="GrassMountainCorner" type="Sprite2D" parent="."]
-position = Vector2(-937, 234)
-texture = ExtResource("37_jyo8t")
-
 [node name="GrassMountainTop" type="Sprite2D" parent="."]
 position = Vector2(-937, 210)
 texture = ExtResource("38_0us36")
@@ -684,3 +685,35 @@ texture = ExtResource("39_s67eo")
 [node name="Puddle2" type="Sprite2D" parent="."]
 position = Vector2(-761, 146)
 texture = ExtResource("39_s67eo")
+
+[node name="MountainTopCorner" type="Sprite2D" parent="."]
+position = Vector2(-937, 234)
+texture = ExtResource("39_md0ns")
+
+[node name="MountainTopCornerBottom" type="Sprite2D" parent="."]
+position = Vector2(-937, 266)
+texture = ExtResource("40_q2wtn")
+
+[node name="MountainTopFilling4" type="Sprite2D" parent="."]
+position = Vector2(-921, 226)
+texture = ExtResource("41_u4tfc")
+
+[node name="GrassMountainGrass" type="Sprite2D" parent="."]
+position = Vector2(-921, 242)
+texture = ExtResource("42_2hlxm")
+
+[node name="GrassMountainFiller" type="Sprite2D" parent="."]
+position = Vector2(-905, 234)
+texture = ExtResource("43_trtev")
+
+[node name="GrassMountainGrass2" type="Sprite2D" parent="."]
+position = Vector2(-905, 241)
+texture = ExtResource("42_2hlxm")
+
+[node name="GrassMountain5" type="Sprite2D" parent="."]
+position = Vector2(-873, 250)
+texture = ExtResource("36_i440p")
+
+[node name="MountainTopRightSide" type="Sprite2D" parent="."]
+position = Vector2(-889, 226)
+texture = ExtResource("44_e26rb")
