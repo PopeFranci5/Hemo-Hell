@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://jb2f0ssb1u4l"]
+[gd_scene load_steps=23 format=3 uid="uid://dj2bmsbk6wtuu"]
 
 [ext_resource type="Script" path="res://PlayableCharacterYoung.gd" id="1_odium"]
 [ext_resource type="Texture2D" uid="uid://022vf456unlh" path="res://Animations/Playable Character Walk Young/Playable Character Waking Left1.png" id="2_o7dpc"]

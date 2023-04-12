@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cntcwmagpy2i0"]
+
+[sub_resource type="TileSet" id="TileSet_0gsdq"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_0gsdq")
+format = 2
