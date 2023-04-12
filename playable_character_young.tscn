@@ -91,7 +91,7 @@ animations = [{
 "duration": 10.0,
 "texture": ExtResource("20_hpwrl")
 }],
-"loop": true,
+"loop": false,
 "name": &"waking",
 "speed": 8.0
 }]
@@ -108,8 +108,7 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ilih7")
-animation = &"left"
-frame_progress = 0.121454
+animation = &"waking"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 2.5)

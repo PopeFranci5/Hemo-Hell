@@ -1,7 +1,8 @@
 extends Area2D
 
-@export var speed = 400
+var speed = 400
 var screen_size
+var elapsed: float
 
 func start(pos):
 	position = pos
@@ -11,29 +12,40 @@ func start(pos):
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
+	$AnimatedSprite2D.animation = "waking"
+	$AnimatedSprite2D.play()
+	await get_tree().create_timer(2.9).timeout
+	$AnimatedSprite2D.animation = "left"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	var velocity = Vector2.ZERO
-	if Input.is_action_pressed("move_up"):
-		velocity.y -= 1
-	if Input.is_action_pressed("move_left"):
-		velocity.x -= 1
-	if Input.is_action_pressed("move_down"):
-		velocity.y += 1
-	if Input.is_action_pressed("move_right"):
-		velocity.x += 1
-
-	if velocity.length() > 0:
-		velocity = velocity.normalized() * speed
-		$AnimatedSprite2D.play()
-	else:
-		$AnimatedSprite2D.stop()
-	position += velocity * delta
-	position.x = clamp(position.x, 0, screen_size.x)
-	position.y = clamp(position.y, 0, screen_size.y)
+	elapsed += delta
 	
-	if velocity.x > 0:
-		$AnimatedSprite2D.animation = "right"
-	elif velocity.x < 0:
-		$AnimatedSprite2D.animation = "left"
+	if elapsed > 2.9:
+		var velocity = Vector2.ZERO
+		if Input.is_action_pressed("move_up"):
+			velocity.y -= 1
+		if Input.is_action_pressed("move_left"):
+			velocity.x -= 1
+		if Input.is_action_pressed("move_down"):
+			velocity.y += 1
+		if Input.is_action_pressed("move_right"):
+			velocity.x += 1
+		if Input.is_action_just_pressed("roll"):
+			velocity = velocity * 2
+			await get_tree().create_timer(3).timeout
+		
+		if velocity.length() > 0:
+			velocity = velocity.normalized() * speed
+			$AnimatedSprite2D.play()
+		else:
+			$AnimatedSprite2D.stop()
+		position += velocity * delta
+		position.x = clamp(position.x, 0, screen_size.x)
+		position.y = clamp(position.y, 0, screen_size.y)
+		
+		if velocity.x > 0:
+			$AnimatedSprite2D.animation = "right"
+		elif velocity.x < 0:
+			$AnimatedSprite2D.animation = "left"
+		print(velocity)
