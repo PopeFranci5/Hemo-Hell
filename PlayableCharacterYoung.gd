@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 400
+var speed = 100
 var screen_size
 var elapsed: float
 
