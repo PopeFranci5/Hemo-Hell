@@ -1,10 +1,10 @@
-[gd_scene load_steps=56 format=3 uid="uid://2tmogyu2drfk"]
+[gd_scene load_steps=58 format=3 uid="uid://2tmogyu2drfk"]
 
-[ext_resource type="Texture2D" uid="uid://ppqy13aqfbfu" path="res://MapTextures/Grass.png" id="1_i0bx1"]
-[ext_resource type="Texture2D" uid="uid://ckeabb64tsf7y" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
-[ext_resource type="Texture2D" uid="uid://ln4hwujbrq31" path="res://MapTextures/DirtWallCorner.png" id="17_scjyc"]
-[ext_resource type="Texture2D" uid="uid://bjtmbt7xmpgnr" path="res://MapTextures/DirtWallCornerDarker.png" id="18_wcpqi"]
-[ext_resource type="Texture2D" uid="uid://djafeu7sy43og" path="res://MapTextures/DirtWallFloorDarker.png" id="19_dcfto"]
+[ext_resource type="Script" path="res://HemoHell.gd" id="1_72mes"]
+[ext_resource type="Texture2D" uid="uid://kbex4kydmbdg" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
+[ext_resource type="Texture2D" uid="uid://cshlvde5adaps" path="res://MapTextures/DirtWallCorner.png" id="17_scjyc"]
+[ext_resource type="Texture2D" uid="uid://b5j7e2pg6dtx3" path="res://MapTextures/DirtWallCornerDarker.png" id="18_wcpqi"]
+[ext_resource type="Texture2D" uid="uid://clok44f5mlfd5" path="res://MapTextures/DirtWallFloorDarker.png" id="19_dcfto"]
 [ext_resource type="Texture2D" uid="uid://bwwo1hr6hxitr" path="res://MapTextures/DirtFloorBrighter.png" id="20_byk1f"]
 [ext_resource type="Texture2D" uid="uid://ddaeocsfsqwiv" path="res://MapTextures/DirtFloorBrighter2.png" id="21_m4mqd"]
 [ext_resource type="Texture2D" uid="uid://hxjcs5uhq46c" path="res://MapTextures/DirtFloorBrighter3.png" id="22_ijqck"]
@@ -55,756 +55,841 @@
 [ext_resource type="Texture2D" uid="uid://cyouxxri875lg" path="res://NewMapTextures/GrassBushBottomLeft.png" id="53_1m71c"]
 [ext_resource type="Texture2D" uid="uid://csnofdvp0sxrn" path="res://NewMapTextures/GrassBushCornerBottomLeft.png" id="54_q2k23"]
 [ext_resource type="Texture2D" uid="uid://34gbj6o8xrrc" path="res://NewMapTextures/GrassMountain3.png" id="55_n7jfc"]
+[ext_resource type="PackedScene" uid="uid://jb2f0ssb1u4l" path="res://playable_character_young.tscn" id="56_bhbxq"]
 
-[node name="Grass" type="Sprite2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vmfpb"]
+size = Vector2(12, 12)
+
+[node name="Node" type="Node"]
+script = ExtResource("1_72mes")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+top_level = true
+position = Vector2(422, 240)
+shape = SubResource("RectangleShape2D_vmfpb")
+
+[node name="DirtWallLeft" type="Sprite2D" parent="StaticBody2D"]
 texture_filter = 1
-position = Vector2(1179, 167)
-texture = ExtResource("1_i0bx1")
-
-[node name="DirtWallLeft" type="Sprite2D" parent="."]
 position = Vector2(422, 240)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallLeft2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 228)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallLeft3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 216)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallLeft4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 204)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallLeft5" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 192)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallLeft6" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 180)
 texture = ExtResource("16_wqjfq")
 
 [node name="DirtWallCorner" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(422, 252)
 texture = ExtResource("17_scjyc")
 
 [node name="DirtWallCornerDarker" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 252)
 texture = ExtResource("18_wcpqi")
 flip_h = true
 
 [node name="DirtWallFloorDarker" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 252)
 texture = ExtResource("19_dcfto")
 
 [node name="DirtWallFloorDarker2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 252)
 texture = ExtResource("19_dcfto")
 
 [node name="DirtWallFloorDarker3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 252)
 texture = ExtResource("19_dcfto")
 
 [node name="DirtWallFloorDarker4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 252)
 texture = ExtResource("19_dcfto")
 
 [node name="DirtFloorBrighter" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 252)
 texture = ExtResource("20_byk1f")
 
 [node name="DirtFloorBrighter2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 252)
 texture = ExtResource("21_m4mqd")
 
 [node name="DirtFloorBrighter3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 252)
 texture = ExtResource("22_ijqck")
 
 [node name="DirtFloorBrighter4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 252)
 texture = ExtResource("23_7bnpm")
 
 [node name="DirtWallLeftDarker7" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 240)
 texture = ExtResource("24_c2y8o")
 flip_h = true
 
 [node name="DirtWallFloorDarker5" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 252)
 texture = ExtResource("19_dcfto")
 
 [node name="DirtWallLeftDarker" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 228)
 texture = ExtResource("24_c2y8o")
 flip_h = true
 
 [node name="DirtWallLeftDarker2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 216)
 texture = ExtResource("24_c2y8o")
 flip_h = true
 
 [node name="DirtWallLeftDarker3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 204)
 texture = ExtResource("24_c2y8o")
 flip_h = true
 
 [node name="DirtWallLeftBrighter" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 192)
 texture = ExtResource("25_6ub1r")
 flip_h = true
 
 [node name="DirtWallLeftBrighter3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(530, 180)
 texture = ExtResource("26_mvpoo")
 flip_h = true
 
 [node name="CaveBackgroundStone" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 192)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 192)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 216)
 texture = ExtResource("28_f4fp2")
 flip_h = true
 flip_v = true
 
 [node name="CaveBackgroundStone5" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 216)
 texture = ExtResource("28_f4fp2")
 
 [node name="CaveBackgroundStone8" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 204)
 texture = ExtResource("29_mgme2")
 flip_h = true
 
 [node name="CaveBackgroundStone11" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 228)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone12" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 228)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone13" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 240)
 texture = ExtResource("29_mgme2")
 
 [node name="CaveBackgroundStone14" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 240)
 texture = ExtResource("28_f4fp2")
 
 [node name="CaveBackgroundStone15" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 204)
 texture = ExtResource("30_wu68r")
 
 [node name="CaveBackgroundStone16" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 216)
 texture = ExtResource("30_wu68r")
 
 [node name="CaveBackgroundStone7" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 204)
 texture = ExtResource("30_wu68r")
 flip_v = true
 
 [node name="CaveBackgroundStone9" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 216)
 texture = ExtResource("30_wu68r")
 flip_v = true
 
 [node name="CaveBackgroundStone10" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 192)
 texture = ExtResource("29_mgme2")
 
 [node name="CaveBackgroundStone17" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 192)
 texture = ExtResource("30_wu68r")
 flip_h = true
 
 [node name="CaveBackgroundStone18" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 192)
 texture = ExtResource("31_mrvik")
 
 [node name="CaveBackgroundStone19" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 204)
 texture = ExtResource("30_wu68r")
 
 [node name="CaveBackgroundStone20" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 228)
 texture = ExtResource("31_mrvik")
 flip_h = true
 flip_v = true
 
 [node name="CaveBackgroundStone21" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(446, 180)
 texture = ExtResource("30_wu68r")
 flip_h = true
 flip_v = true
 
 [node name="CaveBackgroundStone22" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 180)
 texture = ExtResource("29_mgme2")
 
 [node name="CaveBackgroundStone2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 180)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone23" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 180)
 texture = ExtResource("31_mrvik")
 flip_h = true
 flip_v = true
 
 [node name="CaveBackgroundStone24" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 180)
 texture = ExtResource("32_mx3je")
 
 [node name="CaveBackgroundStone25" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 180)
 texture = ExtResource("29_mgme2")
 
 [node name="CaveBackgroundStone26" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 192)
 texture = ExtResource("27_uq3rn")
 
 [node name="CaveBackgroundStone27" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 180)
 texture = ExtResource("32_mx3je")
 
 [node name="CaveBackgroundStoneLayer1" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 180)
 texture = ExtResource("33_oehhq")
 
 [node name="CaveBackgroundStoneLayer2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 192)
 texture = ExtResource("34_1wuue")
 
 [node name="CaveBackgroundStoneLayer3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 204)
 texture = ExtResource("35_8878a")
 
 [node name="CaveBackgroundStoneLayer4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 216)
 texture = ExtResource("33_oehhq")
 
 [node name="CaveBackgroundStoneLayer5" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 228)
 texture = ExtResource("35_8878a")
 
 [node name="CaveBackgroundStoneLayer6" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(458, 240)
 texture = ExtResource("34_1wuue")
 
 [node name="CaveBackgroundStoneLayer7" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 192)
 texture = ExtResource("36_6gmsr")
 
 [node name="CaveBackgroundStoneLayer8" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 204)
 texture = ExtResource("37_nqlf6")
 
 [node name="CaveBackgroundStoneLayer9" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(470, 240)
 texture = ExtResource("37_nqlf6")
 
 [node name="CaveBackgroundStoneLayer10" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 216)
 texture = ExtResource("38_5yfxd")
 
 [node name="CaveBackgroundStoneLayer11" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 228)
 texture = ExtResource("37_nqlf6")
 
 [node name="CaveBackgroundStoneLayer12" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 204)
 texture = ExtResource("39_6foni")
 
 [node name="CaveBackgroundStoneLayer13" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(482, 240)
 texture = ExtResource("39_6foni")
 
 [node name="CaveBackgroundStoneLayer15" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 216)
 texture = ExtResource("40_2qo2c")
 
 [node name="CaveBackgroundStoneLayer16" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 228)
 texture = ExtResource("41_q6j8f")
 
 [node name="CaveBackgroundStoneLayer14" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 216)
 texture = ExtResource("42_58pwx")
 
 [node name="CaveBackgroundStoneLayer17" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 228)
 texture = ExtResource("43_t7yo6")
 flip_h = true
 
 [node name="CaveBackgroundStoneLayer18" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(494, 240)
 texture = ExtResource("44_gp2xx")
 flip_v = true
 
 [node name="CaveBackgroundStoneLayer19" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(506, 240)
 texture = ExtResource("43_t7yo6")
 
 [node name="CaveBackgroundStoneLayer20" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 228)
 texture = ExtResource("42_58pwx")
 flip_h = true
 
 [node name="CaveBackgroundStoneLayer21" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(518, 240)
 texture = ExtResource("42_58pwx")
 flip_h = true
 flip_v = true
 
 [node name="CaveBackgroundStone6" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(434, 204)
 texture = ExtResource("31_mrvik")
 
 [node name="GrassTest10" type="Sprite2D" parent="."]
-position = Vector2(-793, 194)
+position = Vector2(222, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest11" type="Sprite2D" parent="."]
-position = Vector2(-809, 194)
+position = Vector2(206, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest12" type="Sprite2D" parent="."]
-position = Vector2(-809, 178)
+position = Vector2(206, 160)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest13" type="Sprite2D" parent="."]
-position = Vector2(-793, 178)
+position = Vector2(222, 160)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest14" type="Sprite2D" parent="."]
-position = Vector2(-777, 178)
+position = Vector2(238, 160)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest15" type="Sprite2D" parent="."]
-position = Vector2(-777, 194)
+position = Vector2(238, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest16" type="Sprite2D" parent="."]
-position = Vector2(-809, 210)
+position = Vector2(206, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest17" type="Sprite2D" parent="."]
-position = Vector2(-793, 210)
+position = Vector2(222, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest18" type="Sprite2D" parent="."]
-position = Vector2(-777, 210)
+position = Vector2(238, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest20" type="Sprite2D" parent="."]
-position = Vector2(-825, 194)
+position = Vector2(190, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest21" type="Sprite2D" parent="."]
-position = Vector2(-825, 210)
+position = Vector2(190, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest29" type="Sprite2D" parent="."]
-position = Vector2(-761, 194)
+position = Vector2(254, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest32" type="Sprite2D" parent="."]
-position = Vector2(-793, 162)
+position = Vector2(222, 144)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest46" type="Sprite2D" parent="."]
-position = Vector2(-857, 210)
+position = Vector2(158, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest47" type="Sprite2D" parent="."]
-position = Vector2(-873, 210)
+position = Vector2(142, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest51" type="Sprite2D" parent="."]
-position = Vector2(-889, 210)
+position = Vector2(126, 192)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest52" type="Sprite2D" parent="."]
-position = Vector2(-889, 226)
+position = Vector2(126, 208)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest54" type="Sprite2D" parent="."]
-position = Vector2(-921, 210)
+position = Vector2(94, 192)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest55" type="Sprite2D" parent="."]
-position = Vector2(-889, 194)
+position = Vector2(126, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassStone2" type="Sprite2D" parent="."]
-position = Vector2(-921, 194)
+position = Vector2(94, 176)
 texture = ExtResource("34_rdfey")
 
 [node name="GrassTest57" type="Sprite2D" parent="."]
-position = Vector2(-921, 178)
+position = Vector2(94, 160)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest58" type="Sprite2D" parent="."]
-position = Vector2(-873, 178)
+position = Vector2(142, 160)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest59" type="Sprite2D" parent="."]
-position = Vector2(-889, 178)
+position = Vector2(126, 160)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest61" type="Sprite2D" parent="."]
-position = Vector2(-889, 242)
+position = Vector2(126, 224)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest62" type="Sprite2D" parent="."]
-position = Vector2(-905, 226)
+position = Vector2(110, 208)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest63" type="Sprite2D" parent="."]
-position = Vector2(-921, 226)
+position = Vector2(94, 208)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest64" type="Sprite2D" parent="."]
-position = Vector2(-905, 242)
+position = Vector2(110, 224)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest65" type="Sprite2D" parent="."]
-position = Vector2(-921, 242)
+position = Vector2(94, 224)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest66" type="Sprite2D" parent="."]
-position = Vector2(-937, 210)
+position = Vector2(78, 192)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest67" type="Sprite2D" parent="."]
-position = Vector2(-937, 194)
+position = Vector2(78, 176)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest68" type="Sprite2D" parent="."]
-position = Vector2(-937, 226)
+position = Vector2(78, 208)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest69" type="Sprite2D" parent="."]
-position = Vector2(-937, 242)
+position = Vector2(78, 224)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest70" type="Sprite2D" parent="."]
-position = Vector2(-937, 178)
+position = Vector2(78, 160)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassMountain" type="Sprite2D" parent="."]
-position = Vector2(-921, 234)
+position = Vector2(94, 216)
 texture = ExtResource("35_m2n10")
 
 [node name="GrassMountain2" type="Sprite2D" parent="."]
-position = Vector2(-905, 234)
+position = Vector2(110, 216)
 texture = ExtResource("35_m2n10")
 
 [node name="GrassMountain4" type="Sprite2D" parent="."]
-position = Vector2(-889, 234)
+position = Vector2(126, 216)
 texture = ExtResource("36_i440p")
 
 [node name="GrassMountainTop" type="Sprite2D" parent="."]
-position = Vector2(-937, 210)
+position = Vector2(78, 192)
 texture = ExtResource("38_0us36")
 
 [node name="GrassMountainTop2" type="Sprite2D" parent="."]
-position = Vector2(-937, 194)
+position = Vector2(78, 176)
 texture = ExtResource("38_0us36")
 
 [node name="GrassMountainTop3" type="Sprite2D" parent="."]
-position = Vector2(-937, 178)
+position = Vector2(78, 160)
 texture = ExtResource("38_0us36")
 
 [node name="GrassTest71" type="Sprite2D" parent="."]
-position = Vector2(-953, 242)
+position = Vector2(62, 224)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest72" type="Sprite2D" parent="."]
-position = Vector2(-953, 226)
+position = Vector2(62, 208)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest73" type="Sprite2D" parent="."]
-position = Vector2(-953, 210)
+position = Vector2(62, 192)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest74" type="Sprite2D" parent="."]
-position = Vector2(-953, 194)
+position = Vector2(62, 176)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest75" type="Sprite2D" parent="."]
-position = Vector2(-953, 178)
+position = Vector2(62, 160)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest76" type="Sprite2D" parent="."]
-position = Vector2(-953, 162)
+position = Vector2(62, 144)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest77" type="Sprite2D" parent="."]
-position = Vector2(-937, 162)
+position = Vector2(78, 144)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest78" type="Sprite2D" parent="."]
-position = Vector2(-921, 162)
+position = Vector2(94, 144)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest80" type="Sprite2D" parent="."]
-position = Vector2(-889, 162)
+position = Vector2(126, 144)
 texture = ExtResource("31_le245")
 
 [node name="GrassTest81" type="Sprite2D" parent="."]
-position = Vector2(-873, 162)
+position = Vector2(142, 144)
 texture = ExtResource("31_le245")
 
 [node name="Puddle" type="Sprite2D" parent="."]
-position = Vector2(-841, 162)
+position = Vector2(174, 144)
 texture = ExtResource("39_s67eo")
 
 [node name="Puddle2" type="Sprite2D" parent="."]
-position = Vector2(-761, 146)
+position = Vector2(254, 128)
 texture = ExtResource("39_s67eo")
 
 [node name="MountainTopCorner" type="Sprite2D" parent="."]
-position = Vector2(-937, 234)
+position = Vector2(78, 216)
 texture = ExtResource("39_md0ns")
 
 [node name="MountainTopCornerBottom" type="Sprite2D" parent="."]
-position = Vector2(-937, 266)
+position = Vector2(78, 248)
 texture = ExtResource("40_q2wtn")
 
 [node name="MountainTopFilling4" type="Sprite2D" parent="."]
-position = Vector2(-921, 226)
+position = Vector2(94, 208)
 texture = ExtResource("41_u4tfc")
 
 [node name="GrassMountainGrass" type="Sprite2D" parent="."]
-position = Vector2(-921, 242)
+position = Vector2(94, 224)
 texture = ExtResource("42_2hlxm")
 
 [node name="GrassMountainFiller" type="Sprite2D" parent="."]
-position = Vector2(-905, 234)
+position = Vector2(110, 216)
 texture = ExtResource("43_trtev")
 
 [node name="GrassMountainGrass2" type="Sprite2D" parent="."]
-position = Vector2(-905, 241)
+position = Vector2(110, 223)
 texture = ExtResource("42_2hlxm")
 
 [node name="MountainTopRightSide" type="Sprite2D" parent="."]
-position = Vector2(-889, 226)
+position = Vector2(126, 208)
 texture = ExtResource("44_e26rb")
 
 [node name="GrassBushCorner" type="Sprite2D" parent="."]
-position = Vector2(-841, 226)
+position = Vector2(174, 208)
 texture = ExtResource("44_skoty")
 
 [node name="GrassBushLeft" type="Sprite2D" parent="."]
-position = Vector2(-841, 210)
+position = Vector2(174, 192)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushLeft2" type="Sprite2D" parent="."]
-position = Vector2(-841, 194)
+position = Vector2(174, 176)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushTop" type="Sprite2D" parent="."]
-position = Vector2(-825, 226)
+position = Vector2(190, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushTop2" type="Sprite2D" parent="."]
-position = Vector2(-809, 226)
+position = Vector2(206, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushTop3" type="Sprite2D" parent="."]
-position = Vector2(-793, 226)
+position = Vector2(222, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushTop4" type="Sprite2D" parent="."]
-position = Vector2(-777, 226)
+position = Vector2(238, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushCornerUpperLeft" type="Sprite2D" parent="."]
-position = Vector2(-841, 178)
+position = Vector2(174, 160)
 texture = ExtResource("47_xyiyl")
 
 [node name="GrassBushCornerCornerUpperLeft" type="Sprite2D" parent="."]
-position = Vector2(-761, 226)
+position = Vector2(254, 208)
 texture = ExtResource("48_jmxx5")
 
 [node name="GrassBushLeft3" type="Sprite2D" parent="."]
-position = Vector2(-905, 210)
+position = Vector2(110, 192)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushLeft4" type="Sprite2D" parent="."]
-position = Vector2(-905, 194)
+position = Vector2(110, 176)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushLeft5" type="Sprite2D" parent="."]
-position = Vector2(-905, 178)
+position = Vector2(110, 160)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushLeft6" type="Sprite2D" parent="."]
-position = Vector2(-905, 162)
+position = Vector2(110, 144)
 texture = ExtResource("45_g1tdn")
 
 [node name="GrassBushTop5" type="Sprite2D" parent="."]
-position = Vector2(-873, 226)
+position = Vector2(142, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushTop6" type="Sprite2D" parent="."]
-position = Vector2(-857, 226)
+position = Vector2(158, 208)
 texture = ExtResource("46_fd2l8")
 
 [node name="GrassBushCornerFull" type="Sprite2D" parent="."]
-position = Vector2(-761, 210)
+position = Vector2(254, 192)
 texture = ExtResource("49_cyce8")
 
 [node name="GrassBushCornerCornerUpperLeft2" type="Sprite2D" parent="."]
-position = Vector2(-745, 210)
+position = Vector2(270, 192)
 texture = ExtResource("48_jmxx5")
 
 [node name="GrassBushRight" type="Sprite2D" parent="."]
-position = Vector2(-745, 194)
+position = Vector2(270, 176)
 texture = ExtResource("50_asanb")
 
 [node name="GrassBushBottomFill" type="Sprite2D" parent="."]
-position = Vector2(-825, 178)
+position = Vector2(190, 160)
 texture = ExtResource("51_l6exp")
 
 [node name="GrassBushBottomFill2" type="Sprite2D" parent="."]
-position = Vector2(-809, 162)
+position = Vector2(206, 144)
 texture = ExtResource("51_l6exp")
 
 [node name="GrassBushCornerUpperLeft2" type="Sprite2D" parent="."]
-position = Vector2(-825, 162)
+position = Vector2(190, 144)
 texture = ExtResource("47_xyiyl")
 
 [node name="GrassBushCornerUpperLeft3" type="Sprite2D" parent="."]
-position = Vector2(-809, 146)
+position = Vector2(206, 128)
 texture = ExtResource("47_xyiyl")
 
 [node name="GrassBushBottom" type="Sprite2D" parent="."]
-position = Vector2(-793, 146)
+position = Vector2(222, 128)
 texture = ExtResource("52_n318o")
 
 [node name="GrassBushBottomLeft" type="Sprite2D" parent="."]
-position = Vector2(-777, 162)
+position = Vector2(238, 144)
 texture = ExtResource("53_1m71c")
 
 [node name="GrassBushBottomLeft2" type="Sprite2D" parent="."]
-position = Vector2(-761, 178)
+position = Vector2(254, 160)
 texture = ExtResource("53_1m71c")
 
 [node name="GrassBushRight2" type="Sprite2D" parent="."]
-position = Vector2(-857, 162)
+position = Vector2(158, 144)
 texture = ExtResource("50_asanb")
 
 [node name="GrassBushRight3" type="Sprite2D" parent="."]
-position = Vector2(-857, 178)
+position = Vector2(158, 160)
 texture = ExtResource("50_asanb")
 
 [node name="GrassTest19" type="Sprite2D" parent="."]
-position = Vector2(-825, 146)
+position = Vector2(190, 128)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest22" type="Sprite2D" parent="."]
-position = Vector2(-841, 146)
+position = Vector2(174, 128)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassBushBottom2" type="Sprite2D" parent="."]
-position = Vector2(-873, 146)
+position = Vector2(142, 128)
 texture = ExtResource("52_n318o")
 
 [node name="GrassBushBottom3" type="Sprite2D" parent="."]
-position = Vector2(-889, 146)
+position = Vector2(126, 128)
 texture = ExtResource("52_n318o")
 
 [node name="GrassBushCornerUpperLeft4" type="Sprite2D" parent="."]
-position = Vector2(-905, 146)
+position = Vector2(110, 128)
 texture = ExtResource("47_xyiyl")
 
 [node name="GrassBushCornerBottomLeft" type="Sprite2D" parent="."]
-position = Vector2(-745, 178)
+position = Vector2(270, 160)
 texture = ExtResource("54_q2k23")
 
 [node name="GrassBushCornerBottomLeft2" type="Sprite2D" parent="."]
-position = Vector2(-761, 162)
+position = Vector2(254, 144)
 texture = ExtResource("54_q2k23")
 
 [node name="GrassBushCornerBottomLeft3" type="Sprite2D" parent="."]
-position = Vector2(-777, 146)
+position = Vector2(238, 128)
 texture = ExtResource("54_q2k23")
 
 [node name="GrassBushCornerBottomLeft4" type="Sprite2D" parent="."]
-position = Vector2(-857, 146)
+position = Vector2(158, 128)
 texture = ExtResource("54_q2k23")
 
 [node name="GrassTest23" type="Sprite2D" parent="."]
-position = Vector2(-873, 194)
+position = Vector2(142, 176)
 texture = ExtResource("31_le245")
 
 [node name="GrassBushBottomLeft3" type="Sprite2D" parent="."]
-position = Vector2(-857, 194)
+position = Vector2(158, 176)
 texture = ExtResource("53_1m71c")
 
 [node name="GrassTest24" type="Sprite2D" parent="."]
-position = Vector2(-921, 146)
+position = Vector2(94, 128)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest25" type="Sprite2D" parent="."]
-position = Vector2(-937, 146)
+position = Vector2(78, 128)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest26" type="Sprite2D" parent="."]
-position = Vector2(-953, 146)
+position = Vector2(62, 128)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest27" type="Sprite2D" parent="."]
-position = Vector2(-953, 130)
+position = Vector2(62, 112)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest28" type="Sprite2D" parent="."]
-position = Vector2(-937, 130)
+position = Vector2(78, 112)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest30" type="Sprite2D" parent="."]
-position = Vector2(-921, 130)
+position = Vector2(94, 112)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassTest31" type="Sprite2D" parent="."]
-position = Vector2(-905, 130)
+position = Vector2(110, 112)
 texture = ExtResource("32_6ejtk")
 
 [node name="GrassMountain3" type="Sprite2D" parent="."]
-position = Vector2(-873, 122)
+position = Vector2(142, 104)
 texture = ExtResource("35_m2n10")
 
 [node name="GrassMountain6" type="Sprite2D" parent="."]
-position = Vector2(-889, 122)
+position = Vector2(126, 104)
 texture = ExtResource("55_n7jfc")
 
 [node name="GrassMountain7" type="Sprite2D" parent="."]
-position = Vector2(-953, 106)
+position = Vector2(62, 88)
 texture = ExtResource("55_n7jfc")
 
 [node name="GrassMountain8" type="Sprite2D" parent="."]
-position = Vector2(-937, 106)
+position = Vector2(78, 88)
 texture = ExtResource("35_m2n10")
 
 [node name="GrassMountain9" type="Sprite2D" parent="."]
-position = Vector2(-905, 106)
+position = Vector2(110, 88)
 texture = ExtResource("36_i440p")
 
 [node name="GrassMountain10" type="Sprite2D" parent="."]
-position = Vector2(-921, 106)
+position = Vector2(94, 88)
 texture = ExtResource("35_m2n10")
 
 [node name="GrassTest33" type="Sprite2D" parent="."]
-position = Vector2(-873, 242)
+position = Vector2(142, 224)
 texture = ExtResource("32_6ejtk")
+
+[node name="PlayableCharacterYoung" parent="." instance=ExtResource("56_bhbxq")]
+texture_filter = 1
+position = Vector2(437, 234)
