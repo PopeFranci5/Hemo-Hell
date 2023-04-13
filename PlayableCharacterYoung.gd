@@ -1,7 +1,6 @@
 extends CharacterBody2D
 
 var speed = 100
-var screen_size
 var elapsed: float
 
 func start(pos):
@@ -11,7 +10,6 @@ func start(pos):
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	screen_size = get_viewport_rect().size
 	$AnimatedSprite2D.animation = "waking"
 	$AnimatedSprite2D.play()
 	await get_tree().create_timer(2.9).timeout
@@ -44,8 +42,6 @@ func _process(delta):
 		else:
 			$AnimatedSprite2D.stop()
 		position += velocity * delta
-		position.x = clamp(position.x, 0, screen_size.x)
-		position.y = clamp(position.y, 0, screen_size.y)
 		
 		if velocity.x > 0:
 			$AnimatedSprite2D.animation = "right"

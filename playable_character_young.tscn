@@ -100,7 +100,6 @@ animations = [{
 size = Vector2(5, 19)
 
 [node name="PlayableCharacterYoung" type="CharacterBody2D"]
-position = Vector2(473, 287)
 script = ExtResource("1_odium")
 metadata/_edit_group_ = true
 
@@ -112,3 +111,5 @@ animation = &"waking"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 2.5)
 shape = SubResource("RectangleShape2D_4prnd")
+
+[node name="Camera2D" type="Camera2D" parent="."]
