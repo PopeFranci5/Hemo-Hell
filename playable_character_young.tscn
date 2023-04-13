@@ -99,7 +99,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4prnd"]
 size = Vector2(5, 19)
 
-[node name="PlayableCharacterYoung" type="Area2D"]
+[node name="PlayableCharacterYoung" type="CharacterBody2D"]
 position = Vector2(473, 287)
 script = ExtResource("1_odium")
 metadata/_edit_group_ = true
