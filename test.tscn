@@ -1,0 +1,220 @@
+[gd_scene load_steps=40 format=3 uid="uid://d3tjoksyvww5w"]
+
+[ext_resource type="Texture2D" uid="uid://b4mu6sh61ckfv" path="res://Attacks/slash/pixil-frame-0 (24).png" id="1_ihhg4"]
+[ext_resource type="Texture2D" uid="uid://bu6s2laao6yki" path="res://Attacks/slash/pixil-frame-0 (23).png" id="2_c4cej"]
+[ext_resource type="Texture2D" uid="uid://bsf7d1llcietc" path="res://Attacks/slash/pixil-frame-0 (22).png" id="3_my7gk"]
+[ext_resource type="Texture2D" uid="uid://72btysbvf5no" path="res://Attacks/slash/pixil-frame-0 (25).png" id="4_0s8ka"]
+[ext_resource type="Texture2D" uid="uid://bwoos23nxtmt1" path="res://Attacks/slash/pixil-frame-0 (26).png" id="5_isia1"]
+[ext_resource type="Texture2D" uid="uid://b24el8cib0tr0" path="res://Attacks/Old Attack/pixil-frame-0 (11).png" id="6_pnyi1"]
+[ext_resource type="Texture2D" uid="uid://dvfdi86g3cjqx" path="res://Attacks/Old Attack/pixil-frame-0 (13).png" id="7_bcq6l"]
+[ext_resource type="Texture2D" uid="uid://dnl2654uiq7ba" path="res://Attacks/Old Attack/pixil-frame-0 (14).png" id="8_tnwvc"]
+[ext_resource type="Texture2D" uid="uid://crk7jkbrue14k" path="res://Attacks/Old Attack/pixil-frame-0 (15).png" id="9_bacgt"]
+[ext_resource type="Texture2D" uid="uid://dacytwytgyki4" path="res://Attacks/Old Attack/pixil-frame-0 (16).png" id="10_5wwrw"]
+[ext_resource type="Texture2D" uid="uid://baxp1xdyvvwxw" path="res://Attacks/Old Attack/pixil-frame-0 (17).png" id="11_hbiyq"]
+[ext_resource type="Texture2D" uid="uid://ne68svd0r36v" path="res://Attacks/Old Attack/pixil-frame-0 (18).png" id="12_oug5l"]
+[ext_resource type="Texture2D" uid="uid://d3o51baaxvpfy" path="res://Attacks/Old Attack/pixil-frame-0 (19).png" id="13_a5voa"]
+[ext_resource type="Texture2D" uid="uid://tb8mtygng3be" path="res://Attacks/Old Attack/pixil-frame-0 (20).png" id="14_segyo"]
+[ext_resource type="Texture2D" uid="uid://c4gktbaclllf2" path="res://Attacks/Old Attack/pixil-frame-0 (21).png" id="15_jyjk0"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (27).png" id="16_2fb21"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (28).png" id="17_c06t0"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (29).png" id="18_c77vn"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (30).png" id="19_hbsvg"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (31).png" id="20_2re8x"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (32).png" id="21_2larb"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (33).png" id="22_gwfgb"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (34).png" id="23_0riwg"]
+[ext_resource type="Texture2D" path="res://Animations/slash right/pixil-frame-0 (35).png" id="24_5hv0y"]
+[ext_resource type="Texture2D" uid="uid://d2utwpxgjhmp1" path="res://Animations/slash right/pixil-frame-0 (22).png" id="25_xa8hb"]
+[ext_resource type="Texture2D" uid="uid://gdi2dnem0xfd" path="res://Animations/slash right/pixil-frame-0 (23).png" id="26_ey08p"]
+[ext_resource type="Texture2D" uid="uid://brdnr6c27ge2d" path="res://Animations/slash right/pixil-frame-0 (24).png" id="27_v3fu4"]
+[ext_resource type="Texture2D" uid="uid://blshrcgrjveri" path="res://Animations/slash right/pixil-frame-0 (25).png" id="28_l8onf"]
+[ext_resource type="Texture2D" uid="uid://c1xmm5c3t6gc4" path="res://Animations/stab/stab.png" id="29_aulft"]
+[ext_resource type="Texture2D" uid="uid://ca0pkvdd2ohed" path="res://Animations/stab/pixil-frame-0 (22).png" id="29_y2tp3"]
+[ext_resource type="Texture2D" uid="uid://cmtvd0432dfln" path="res://Animations/stab/pixil-frame-0 (23).png" id="30_wh57e"]
+[ext_resource type="Texture2D" uid="uid://d0nb11tcy8p5w" path="res://Animations/stab/pixil-frame-0 (24).png" id="31_hrtia"]
+[ext_resource type="Texture2D" uid="uid://7nubgfec1iar" path="res://Animations/stab/pixil-frame-0 (25).png" id="32_gmvaf"]
+[ext_resource type="Texture2D" uid="uid://bfjucm3eg3dwk" path="res://Animations/stab/pixil-frame-0 (26).png" id="33_j8g2d"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4rfsq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ihhg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_c4cej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_my7gk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0s8ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_isia1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kbgqk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_pnyi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bcq6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tnwvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bacgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5wwrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hbiyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_oug5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_a5voa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_segyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jyjk0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nogtx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_2fb21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_c06t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_c77vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hbsvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2re8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_2larb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_gwfgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0riwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5hv0y")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_56jom"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_xa8hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ey08p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_v3fu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_l8onf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_v3fu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xa8hb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tqlq8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_aulft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_y2tp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_wh57e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_hrtia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_gmvaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_j8g2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_y2tp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_aulft")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+texture_filter = 1
+position = Vector2(898.033, 69.8508)
+rotation = 0.00140692
+scale = Vector2(0.997233, 0.987568)
+sprite_frames = SubResource("SpriteFrames_4rfsq")
+frame_progress = 0.353886
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-35.8117, 0.772224)
+rotation = -0.000127428
+sprite_frames = SubResource("SpriteFrames_kbgqk")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D"]
+position = Vector2(18.7302, 0.386803)
+rotation = -0.011349
+sprite_frames = SubResource("SpriteFrames_nogtx")
+frame_progress = 0.262596
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(-80.2941, 2)
+sprite_frames = SubResource("SpriteFrames_56jom")
+frame_progress = 0.0122209
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(-62.8119, 3.35218)
+rotation = -0.00675835
+sprite_frames = SubResource("SpriteFrames_tqlq8")
+frame_progress = 0.351173
