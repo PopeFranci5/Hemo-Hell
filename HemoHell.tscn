@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=3 uid="uid://2tmogyu2drfk"]
+[gd_scene load_steps=57 format=3 uid="uid://2tmogyu2drfk"]
 
 [ext_resource type="Texture2D" uid="uid://ppqy13aqfbfu" path="res://MapTextures/Grass.png" id="1_i0bx1"]
 [ext_resource type="Texture2D" uid="uid://ckeabb64tsf7y" path="res://MapTextures/DirtWallLeft.png" id="16_wqjfq"]
@@ -55,6 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://cyouxxri875lg" path="res://NewMapTextures/GrassBushBottomLeft.png" id="53_1m71c"]
 [ext_resource type="Texture2D" uid="uid://csnofdvp0sxrn" path="res://NewMapTextures/GrassBushCornerBottomLeft.png" id="54_q2k23"]
 [ext_resource type="Texture2D" uid="uid://34gbj6o8xrrc" path="res://NewMapTextures/GrassMountain3.png" id="55_n7jfc"]
+[ext_resource type="PackedScene" uid="uid://cntcwmagpy2i0" path="res://scene.tscn" id="56_eid0e"]
 
 [node name="Grass" type="Sprite2D"]
 texture_filter = 1
@@ -808,3 +809,9 @@ texture = ExtResource("35_m2n10")
 [node name="GrassTest33" type="Sprite2D" parent="."]
 position = Vector2(-873, 242)
 texture = ExtResource("32_6ejtk")
+
+[node name="GrassMountainGrass3" type="Sprite2D" parent="."]
+position = Vector2(-905, 241)
+texture = ExtResource("42_2hlxm")
+
+[node name="Scene" parent="." instance=ExtResource("56_eid0e")]
