@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6154avrqt48"
-path="res://.godot/imported/Playable Character Right.png-3dc367b8040f79ceca37a674e834d6c6.ctex"
+uid="uid://cbd0em8lkx7w8"
+path="res://.godot/imported/Blood_Sprite_Sheet.png-f869294f50aba3fac5d628179c856254.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable character/Old/Playable Character Right.png"
-dest_files=["res://.godot/imported/Playable Character Right.png-3dc367b8040f79ceca37a674e834d6c6.ctex"]
+source_file="res://Weapons/Blood_Sprite_Sheet.png"
+dest_files=["res://.godot/imported/Blood_Sprite_Sheet.png-f869294f50aba3fac5d628179c856254.ctex"]
 
 [params]
 

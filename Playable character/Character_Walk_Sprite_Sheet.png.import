@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgymlj6e26yvd"
-path="res://.godot/imported/Blood3.png-8b07acbb33849321136572f025493959.ctex"
+uid="uid://bi5iecx3swoyj"
+path="res://.godot/imported/Character_Walk_Sprite_Sheet.png-73704b63796fdb4a50480c5c7cda194e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Weapons/Blood3.png"
-dest_files=["res://.godot/imported/Blood3.png-8b07acbb33849321136572f025493959.ctex"]
+source_file="res://Playable character/Character_Walk_Sprite_Sheet.png"
+dest_files=["res://.godot/imported/Character_Walk_Sprite_Sheet.png-73704b63796fdb4a50480c5c7cda194e.ctex"]
 
 [params]
 

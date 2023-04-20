@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://betsuqy75pxvd"
-path="res://.godot/imported/Blood1.png-3908c9b9e96cd6cbe067bf55be55a02f.ctex"
+uid="uid://i3djhuil6gri"
+path="res://.godot/imported/BLOOD_SPLITTER.png-6276d4960991048fa6d8243bebfda568.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Weapons/Blood1.png"
-dest_files=["res://.godot/imported/Blood1.png-3908c9b9e96cd6cbe067bf55be55a02f.ctex"]
+source_file="res://Weapons/BLOOD_SPLITTER/BLOOD_SPLITTER.png"
+dest_files=["res://.godot/imported/BLOOD_SPLITTER.png-6276d4960991048fa6d8243bebfda568.ctex"]
 
 [params]
 

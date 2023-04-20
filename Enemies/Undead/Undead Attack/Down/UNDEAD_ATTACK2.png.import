@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://efmcc4cwsct"
-path="res://.godot/imported/Playable Character Front.png-e05b44694b07408e352f81f2c211a21d.ctex"
+uid="uid://bagh7jifg4h5c"
+path="res://.godot/imported/UNDEAD_ATTACK2.png-fef01eb6b6f5b2c5049dc796e2f43679.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Playable character/Old/Playable Character Front.png"
-dest_files=["res://.godot/imported/Playable Character Front.png-e05b44694b07408e352f81f2c211a21d.ctex"]
+source_file="res://Enemies/Undead/Undead Attack/Down/UNDEAD_ATTACK2.png"
+dest_files=["res://.godot/imported/UNDEAD_ATTACK2.png-fef01eb6b6f5b2c5049dc796e2f43679.ctex"]
 
 [params]
 
